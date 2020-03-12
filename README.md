@@ -1,2 +1,3 @@
-# yosoy-htg
+# YOSOY
+
 Repositorio para el proyecto Yosoy.
