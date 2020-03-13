@@ -1,9 +1,10 @@
 import React from 'react';
 import Home from './Home';
+import styles from './styles.module.scss';
 
 function App() {
   return (
-    <div>
+    <div className={styles.background}>
       <Home/>
     </div>
   );
