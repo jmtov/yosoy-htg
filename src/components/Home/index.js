@@ -1,12 +1,12 @@
 import React from 'react';
 import ContainerOne from './ContainerOne';
-import  'styles.module.scss';
+import styles from './styles.module.scss';
 
 function Home() {
     return(
         <div className={styles.home}>
             <ContainerOne/>
-            <hr className="hr"/>
+            <hr className={styles.hr}/>
             <containerTwo/>
         </div>
     );
