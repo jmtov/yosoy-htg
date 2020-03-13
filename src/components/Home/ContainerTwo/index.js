@@ -6,8 +6,8 @@ class ContainerTwo extends React.Component {
         return (
             <div className={styles.cont2}>
                 <div className={styles.containerButton}>
-                <button className={styles.button1}>QUIERO DONAR</button>
-                <button className={styles.button2}>QUIERO PEDIR</button>
+                <button className={styles.button1}><strong>QUIERO DONAR</strong></button>
+                <button className={styles.button2}><strong>QUIERO PEDIR</strong></button>
                 </div>
             </div>
         );
