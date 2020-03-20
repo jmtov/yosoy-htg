@@ -1,9 +1,10 @@
 import React from 'react';
+import Tablet from './tablet';
 
 function App() {
   return (
     <div>
-      <p>YOSOY</p>
+      <Tablet/>
     </div>
   );
 }
