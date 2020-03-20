@@ -1,10 +1,12 @@
 import React from 'react';
+import styles from './styles.module.scss';
+import Card from './card';
 
 class ContainerCard extends React.Component {
     render() {
         return(
-            <div>
-                <p>soy la tarjeta que contiene los datos del medicamento</p>
+            <div className={styles.ContainerCard}>
+                <Card/>
             </div>
         );
     }

@@ -1,10 +1,11 @@
 import React from 'react';
+import styles from './styles.module.scss';
 
 class Button extends React.Component {
     render() {
         return(
             <div>
-                <p>soy el boton</p>
+                <button className={styles.button}>CONTINUAR</button>
             </div>
         );
     }

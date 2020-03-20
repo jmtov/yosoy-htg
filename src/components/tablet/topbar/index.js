@@ -1,10 +1,20 @@
 import React from 'react';
+import styles from './styles.module.scss';
 
 class Topbar extends React.Component {
     render() {
         return(
-            <div>
-                <p>soy la barra de navegacion que esta arriba</p>
+            <div className={styles.topbar}>
+                <nav>
+                    <div>
+                        <button>
+
+                        </button>
+                    </div>
+                    <div>
+                        <img></img>
+                    </div>
+                </nav>
             </div>
         );
     }
