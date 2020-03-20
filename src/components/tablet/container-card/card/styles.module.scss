@@ -4,12 +4,13 @@
     border-radius: 20px;
     box-shadow: 0 10px 10px blue;
     overflow: hidden;
-    margin: 20px;
+    margin-left: 580px;
     text-align: center;
     transition: all 1s;
+    
 
 &:hover {
-    transform: translateY(-30px);
+    transform: translateY(-10px);
     box-shadow: 0 30px 30px skyblue;
     cursor:pointer;
  }
@@ -19,7 +20,8 @@
     display: block;
     margin-top: 5px;
     margin-bottom: 5px;
-    background-color: gray;
+    background-color:#d5d2ca;
     opacity: 0.3;
-    height: 2px;
+    height: 1px;
+    width: 80%;
 }
