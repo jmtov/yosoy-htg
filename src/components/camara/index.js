@@ -1,12 +1,13 @@
 import React from 'react';
-import Camara from '../../assets/camara.png';
+import camara from '../../assets/camara.png';
+import styles from './styles.module.scss';
 
 class Camara extends React.Component {
     render() {
         return(
             <div>
-                    <div>
-                        <img src={Camara} alt='camara'/>
+                    <div className={styles.cam}>
+                        <img src={camara} alt='camara'/>
                     </div>
                 
             </div>
