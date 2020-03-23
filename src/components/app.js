@@ -1,10 +1,16 @@
 import React from 'react';
+import Scaner from './Scaner';
+import styles from './styles.module.scss'
+
 
 function App() {
   return (
-    <div>
-      <p>YOSOY</p>
+    <div className={styles.background}>
+      <Scaner/>
+    
     </div>
+    
+     
   );
 }
 
