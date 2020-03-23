@@ -4,11 +4,13 @@ import styles from './styles.module.scss';
 class Composition extends React.Component {
     render() {
         return(
-            <div>
+            <div className={styles.subtitle}>
                 <h3>Composicion</h3>
-                <p>Efavirenz 600mg</p>
-                <p>Emtricitabina 200mg</p>
-                <p>Tenofovir 300mg</p>
+                <div className={styles.text}>
+                    <p>Efavirenz 600mg</p>
+                    <p>Emtricitabina 200mg</p>
+                    <p>Tenofovir 300mg</p>
+                </div>
             </div>
         );
     }

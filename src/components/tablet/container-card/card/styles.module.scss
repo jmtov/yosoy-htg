@@ -1,11 +1,11 @@
 .Card {
     width: 280px;
-    height: 500px;
+    height: 580px;
     border-radius: 20px;
     box-shadow: 0 10px 10px blue;
     overflow: hidden;
     margin-left: 580px;
-    text-align: center;
+    margin-top: 20px;
     transition: all 1s;
     
 
@@ -25,3 +25,16 @@
     height: 1px;
     width: 80%;
 }
+
+.medicamento {
+    height: 40px;
+   margin-left: 13vh;
+}
+.title {
+    text-align: center;
+}
+
+.subtitle {
+    margin-left: 3vh;
+}
+

@@ -3,6 +3,8 @@ import styles from './styles.module.scss';
 import Composition from './composition';
 import Alert from './alert';
 import Terms from './terms'
+import Medicamento from '../../../assets/atripla.png';
+import Bar from './qualitybar';
 
 class Card extends React.Component {  
  
@@ -11,12 +13,12 @@ class Card extends React.Component {
     ) {
         return(
             <div className={styles.Card}>
-                <h3>ATRIPLA</h3>
+                <h3 className={styles.title}>ATRIPLA</h3>
                 <hr className={styles.hr}></hr>
-                <img></img>
+                <img src={Medicamento} alt='medicamento' className={styles.medicamento}/>
                 <Composition/>
-                <h3>Cantidad de pastillas</h3>
-                <input type='range' name='range'></input>
+                <h3 className={styles.subtitle}>Cantidad de pastillas</h3>
+                <Bar/>
                 <Alert/>
                 <Terms/>
             </div>
