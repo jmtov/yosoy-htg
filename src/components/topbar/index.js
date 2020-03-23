@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './styles.module.scss';
-import imgNavbar from "../Assets"
+import imgNavbar from "../assets"
 import Atras from './atras';
 import Logo from './logo';
 
