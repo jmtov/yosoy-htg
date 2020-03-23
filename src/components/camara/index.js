@@ -1,5 +1,5 @@
 import React from 'react';
-import camara from '../../assets/camara.png';
+import camara from '../assets/camara.png';
 import styles from './styles.module.scss';
 
 class Camara extends React.Component {

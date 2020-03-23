@@ -1,6 +1,6 @@
 import React from 'react';
-import Topbar from './topbar';
 import Camara from './camara';
+import Topbar from './topbar';
 
 function App() {
   return (
