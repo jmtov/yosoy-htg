@@ -1,0 +1,23 @@
+.radio2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 20%;
+}
+
+.gramos{
+    width: 60px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid green 2px;
+    border-radius: 30px;
+}
+
+.radio3{
+    position: absolute;
+    margin-left: 85px;
+    margin-bottom: 10px;
+}
