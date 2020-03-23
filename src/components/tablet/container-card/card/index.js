@@ -4,11 +4,14 @@ import Composition from './composition';
 import Alert from './alert';
 import Terms from './terms'
 
-class Card extends React.Component {
-    render() {
+class Card extends React.Component {  
+ 
+    render(
+      
+    ) {
         return(
             <div className={styles.Card}>
-                <h1>ATRIPLA</h1>
+                <h3>ATRIPLA</h3>
                 <hr className={styles.hr}></hr>
                 <img></img>
                 <Composition/>
