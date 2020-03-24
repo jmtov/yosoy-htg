@@ -1,4 +1,6 @@
-.slider {
+
+
+  .slider {
     -webkit-appearance: none;
     -moz-appearance: none;
     background: transparent;
@@ -21,8 +23,8 @@
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     border-radius: 50px;
     background: blue;
     cursor: pointer;
@@ -45,7 +47,7 @@
 #loader{
     margin-left: 5vh;
     width:60%;
-    height:20px;
+    height:10px;
     background-color:blue;
     border-radius:10px;
 }
@@ -53,6 +55,6 @@
     width:60%;
     margin:0 auto;
     background-color:lightgrey;
-    height:20px;
+    height:10px;
     border-radius:10px;
 }

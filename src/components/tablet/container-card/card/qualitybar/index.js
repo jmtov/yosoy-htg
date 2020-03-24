@@ -1,26 +1,32 @@
 import React from 'react';
 import './styles.css';
 
-class Bar extends React.Component {
 
-val = () => {
-    var inv = setInterval(val, 10);
-    function val(){
-        var divval = document.getElementById("loader").style.width;
-        var value = document.getElementById("a").value;        
-        value++;
-        divval = value + "%";
-        document.getElementById("loader").style.width = divval;
-}
-}
+class Bar extends React.Component{
+    
+constructor(props) {
+    super(props);
 
-    render() {
-        return (
-            <div>
-                <input onDrag={this.val} type="range" min="1" max="10" class="slider" id='loader'/>
-            </div>
-        );
-    }
+    this.state = {
+      value: '',
+
+    };
+  }
+
+  render() {
+    return (
+        <div>
+           <input  onDrag={value => this.setState({ value })}
+            onDragComplete={value => console.log(value)} 
+            type="range"
+             minValue={1} 
+             maxValue={10}
+              class="slider" 
+              id='loader' 
+              value={this.state.value}/>
+      </div>
+    );
+  }
 }
 
 export default Bar;
