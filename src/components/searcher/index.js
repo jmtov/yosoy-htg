@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./style.module.scss"
-import Form from "./formulario";
+import Form from "./form";
 
-class Buscador extends React.Component{
+class Searcher extends React.Component{
     render(){
         return(
             <div className={styles.contBuscador}>
@@ -13,4 +13,4 @@ class Buscador extends React.Component{
     }
 }
 
-export default Buscador;
+export default Searcher;

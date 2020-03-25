@@ -1,8 +1,8 @@
 import React from 'react';
 import Topbar from '../components/topbar';
 import ContainerPastis from "../components/contenedor-medicamentos";
-import Boton from '../components/boton';
-import Buscador from '../components/buscador';
+import Button from '../components/button';
+import Searcher from '../components/searcher';
 import styles from "./style.module.scss";
 
 
@@ -14,9 +14,9 @@ class MedicineSelector extends React.Component {
 
         <Topbar/>
          <div className={styles.contenedorPrincipal}>
-          <Buscador contBuscador="¿Que medicamentos estas buscando?" title="MEDICAMENTOS UTILIZADOS"/>
+          <Searcher contBuscador="¿Que medicamentos estas buscando?" title="MEDICAMENTOS UTILIZADOS"/>
           <ContainerPastis/>
-          <Boton title="Continuar"/>
+          <Button title="Continuar"/>
         </div>
 
     </div>

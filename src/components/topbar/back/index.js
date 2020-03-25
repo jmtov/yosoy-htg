@@ -2,7 +2,7 @@ import React from "react";
 
 import styles from "./style.module.scss";
 
-class Atras extends React.Component{
+class Back extends React.Component{
     render(){
         return(
             <ul className={styles.ul}>
@@ -16,4 +16,4 @@ class Atras extends React.Component{
     }
 }
 
-export default Atras;
+export default Back;
