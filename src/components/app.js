@@ -1,9 +1,10 @@
 import React from 'react';
+import Selector_fundacion from './selector-fundaciones';
 
 function App() {
   return (
     <div>
-      <p>YOSOY</p>
+      <Selector_fundacion/>
     </div>
   );
 }
