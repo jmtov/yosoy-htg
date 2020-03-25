@@ -1,9 +1,11 @@
 import React from 'react';
+import Home from './Home';
+import styles from './styles.module.scss';
 
 function App() {
   return (
-    <div>
-      <p>YOSOY</p>
+    <div className={styles.background}>
+      <Home/>
     </div>
   );
 }
