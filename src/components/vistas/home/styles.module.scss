@@ -1,92 +1,99 @@
 .home {
-    width: 90%;
-    height: 80%;
+  width: 90%;
+  height: 80%;
 }
+
 .hr {
-    display: block;
-    margin-top: 8px;
-    margin-bottom: 8px;
-    background-color: gray;
-    opacity: 0.3;
-    height: 2px;
+  display: block;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background-color: gray;
+  opacity: 0.3;
+  height: 2px;
 }
 
 .cont1 {
-    width:100%;
-    height: 70%;
-    display: flex;
-    align-items: flex-end;
+  width: 100%;
+  height: 70%;
+  display: flex;
+  align-items: flex-end;
 }
 
 .containerHome {
-    width: 40%;
-    font-size: 30px;
+  width: 40%;
+  font-size: 30px;
 }
 
 .title {
-    color: blue;
-    font-size: 10vh;
+  color: blue;
+  font-size: 10vh;
 }
 
 .cont2 {
-    width: 100%;
-    height: 30%;
+  width: 100%;
+  height: 30%;
 }
 
 .containerButton {
-    height: auto;
-    width: auto;
-    margin-top: calc(2% + 28px);
+  height: auto;
+  width: auto;
+  margin-top: calc(2% + 28px);
 }
 
 
 .button1 {
-    background-color:#FF0080;
-    color: white;
-    font-size: 20px;
-    border-radius: 5px;
-    margin-right: 25px;
-    border-color: #FF0080;
-    width: 250px;
-    height: 64px;
-    transition: all 1.2s;
-    &:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 30px 30px #ee9ca1;
-        cursor:pointer;
-    }
+  background-color: #FF0080;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-right: 25px;
+  border-color: #FF0080;
+  width: 250px;
+  height: 64px;
+  transition: all 1.2s;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 30px 30px #ee9ca1;
+    cursor: pointer;
+  }
 }
 
 .button2 {
-    background-color: blue;
-    color: white;
-    font-size: 20px;
-    border-radius: 5px;
-    border-color: blue;
-    width: 250px;
-    height: 64px;
-    transition: all 1.2s;
-    &:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 30px 30px #94dbf8;
-        cursor: pointer;
-    }
-    
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  border-color: blue;
+  width: 250px;
+  height: 64px;
+  transition: all 1.2s;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 30px 30px #94dbf8;
+    cursor: pointer;
+  }
+
 }
 
 @media only screen and (max-width:500px) {
-    .containerButton, .containerHome {
-            width: 100%;
-    }
-    .containerButton {
-        display: flex;
-        align-content: center;
-    }
-  }
-  .background {
-    height: 100vh;
+
+  .containerButton,
+  .containerHome {
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
+
+  .containerButton {
+    display: flex;
+    align-content: center;
+  }
+}
+
+.background {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
