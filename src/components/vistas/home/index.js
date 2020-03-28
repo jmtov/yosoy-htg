@@ -10,7 +10,8 @@ function Home() {
         <div className={styles.cont1}>
           <div className={styles.containerHome}>
             <h1 className={styles.title}>¡Hola!</h1>
-            <strong>Queremos darte una mano :)</strong><br />
+            <strong>Queremos darte una mano :)</strong>
+            <br />
             <strong>¿Cómo podemos ayudarte hoy?</strong>
           </div>
         </div>
