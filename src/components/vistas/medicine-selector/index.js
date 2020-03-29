@@ -1,13 +1,10 @@
 import React from 'react';
 import Topbar from '../../reusable-components/topbar';
-import Searcher from "../../reusable-components/searcher";
-import ContainerPastis from "../../medicine-container";
-import Button from "../../reusable-components/button";
-import styles from "./styles.module.scss";
-import { Link } from "react-router-dom";
-
-
-
+import Searcher from '../../reusable-components/searcher';
+import ContainerPastis from '../../medicine-container';
+import Button from '../../reusable-components/button';
+import styles from './styles.module.scss';
+import { Link } from 'react-router-dom';
 
 class MedicineSelector extends React.Component {
   render() {
@@ -22,12 +19,9 @@ class MedicineSelector extends React.Component {
             <Button title="Continuar" />
           </Link>
         </div>
-
       </div>
     );
   }
-
-
 }
 
 export default MedicineSelector;
