@@ -1,11 +1,12 @@
 import React from 'react';
-import styles from './styles.module.scss'
-import Confirmation from './Confirmation'
+import styles from './styles/main.scss';
+import Main from './index.main';
+
 
 function App() {
   return (
     <div className={styles.background}>
-      <Confirmation/>
+      <Main />
     </div>
   );
 }
