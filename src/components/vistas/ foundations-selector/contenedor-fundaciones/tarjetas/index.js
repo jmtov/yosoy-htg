@@ -1,7 +1,7 @@
 import React from "react";
-import styles from "./style.module.scss"
-import ContSuperior from "./contSuperior";
-import ContInferior from "./contInferior";
+import styles from "./styles.module.scss"
+import ContSuperior from "./container-superior";
+import ContInferior from "./container-inferior";
 
 class Tarjetas extends React.Component{
 

@@ -1,10 +1,10 @@
 import React from "react";
-import styles from "./style.module.scss";
+import styles from "./styles.module.scss";
 
-class ContInferior extends React.Component{
+class ContInferior extends React.Component {
 
-    render(){
-        return(
+    render() {
+        return (
             <div className={styles.cont2}>
                 <p><b>Direccion:</b></p>
                 <p>Entre Rios 671 Olivos.</p>
