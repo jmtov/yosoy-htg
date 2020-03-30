@@ -1,6 +1,10 @@
 import React from 'react';
-import styles from './styles.module.scss';
+
 import imgNavbar from '../../../assets';
+
+import styles from './styles.module.scss';
+
+
 import Logo from './logo';
 import Back from './back';
 

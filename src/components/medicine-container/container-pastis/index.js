@@ -1,25 +1,21 @@
-import React from "react";
-import styles from "./styles.module.scss";
-import Tarjetas from "./tarjetas";
+import React from 'react';
 
-class ContPastis extends React.Component {
+import styles from './styles.module.scss';
+import Tarjetas from './tarjetas';
 
-
-    render() {
-        return (
-            <div className={styles.contPastis}>
-                <Tarjetas />
-                <Tarjetas />
-                <Tarjetas />
-                <Tarjetas />
-                <Tarjetas />
-                <Tarjetas />
-                <Tarjetas />
-                <Tarjetas />
-
-            </div>
-        );
-    }
+function ContPastis() {
+  return (
+    <div className={styles.contPastis}>
+      <Tarjetas />
+      <Tarjetas />
+      <Tarjetas />
+      <Tarjetas />
+      <Tarjetas />
+      <Tarjetas />
+      <Tarjetas />
+      <Tarjetas />
+    </div>
+  );
 }
 
 export default ContPastis;
