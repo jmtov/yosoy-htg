@@ -84,8 +84,7 @@ $sha-pink-color: #ee9ca1;
   }
 }
 
-@media only screen and (max-width:500px) {
-
+@media only screen and (max-width:500px) { /*Aca cuando uso Eslint me hace un salto de linea de la llave hacia el containerButton y queda un espacio*/
   .containerButton,
   .containerHome {
     width: 100%;
