@@ -16,18 +16,16 @@ function Home() {
           </div>
         </div>
         <hr className={styles.hr} />
-        <div className={styles.cont2}>
-          <div className={styles.containerButton}>
-            <button type="submit" className={styles.button1}>
-              QUIERO DONAR
+        <div className={styles.containerButton}>
+          <button type="submit" className={styles.button1}>
+            QUIERO DONAR
             </button>
-            <Link to="/medicine-selector">
-              {} {/*En esta linea va a ir el componente que le sigue*/ }
-              <button type="submit" className={styles.button2}>
-                QUIERO PEDIR
+          <Link to="/medicine-selector">
+            {} {/*En esta linea va a ir el componente que le sigue*/}
+            <button type="submit" className={styles.button2}>
+              QUIERO PEDIR
               </button>
-            </Link>
-          </div>
+          </Link>
         </div>
       </div>
     </div>
