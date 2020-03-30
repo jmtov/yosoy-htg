@@ -1,14 +1,13 @@
 import React from "react";
+import styles from "./styles.module.scss";
 
-import styles from "./style.module.scss";
-
-class Atras extends React.Component{
-    render(){
-        return(
+class Back extends React.Component {
+    render() {
+        return (
             <ul className={styles.ul}>
                 <li>
                     <button className={styles.button}>
-                        <img src={this.props.assets} className={styles.assets} alt=""/>
+                        <img src={this.props.assets} className={styles.assets} alt="" />
                     </button>
                 </li>
             </ul>
@@ -16,4 +15,4 @@ class Atras extends React.Component{
     }
 }
 
-export default Atras;
+export default Back;
