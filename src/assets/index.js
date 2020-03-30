@@ -1,5 +1,5 @@
 import back from "./back.png";
-import logo from "./logo.png"
+import logo from "./logo.png";
 
 const imgNavbar = [
     back,
