@@ -1,0 +1,53 @@
+.Card {
+  width: 46vh;
+  height: 60vh;
+  border-radius: 20px;
+  box-shadow: 0 10px 10px blue;
+  overflow: hidden;
+  margin-top: 20px;
+  transition: all 1s;
+
+ 
+  /*display: flex;
+  flex-wrap: wrap;*/
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 30px 30px skyblue;
+    cursor: pointer;
+  }
+}
+
+.hr {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: #d5d2ca;
+  opacity: 0.3;
+  height: 1px;
+  width: 80%;
+}
+
+.medicamento {
+  height: 40px;
+  margin-left: 13vh;
+}
+.title {
+  text-align: center;
+}
+
+.subtitle {
+  margin-left: 3vh;
+  font-size: 20px;
+}
+
+.alert {
+  background: #d5d2ca;
+  margin-left: 5px;
+  width: 100%;
+}
+.text {
+  margin-left: 3vh;
+}

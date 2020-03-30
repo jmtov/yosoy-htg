@@ -1,6 +1,6 @@
 import React from "react";
 
-import styles from "./style.module.scss";
+import styles from "./styles.module.scss";
 
 class Logo extends React.Component{
     render(){
