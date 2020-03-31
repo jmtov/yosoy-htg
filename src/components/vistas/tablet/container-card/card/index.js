@@ -8,7 +8,7 @@ class Card extends React.Component {
 
     ) {
         return (
-            <div className={styles.Card}>
+            <div className={styles.card}>
                 <h3 className={styles.title}>ATRIPLA</h3>
                 <hr className={styles.hr}></hr>
                 <h3 className={styles.subtitle}>Composicion</h3>
