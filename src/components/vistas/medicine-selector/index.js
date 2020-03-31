@@ -10,16 +10,16 @@ import styles from './styles.module.scss';
 
 function MedicineSelector() {
   return (
-    <div>
+    <div className={styles.containerPrincipal}>
       <Topbar />
-      <div className={styles.contenedorPrincipal}>
+      <div className={styles.containerTwo}>
         <Searcher contBuscador="¿Que medicamentos estas buscando?" title="MEDICAMENTOS UTILIZADOS" />
         <ContainerPastis />
-        <Link to="/tablet">
-          {}
-          <Button title="CONTINUAR" />
-        </Link>
       </div>
+      <Link to="/tablet">
+        {} {/*ACA VA LA VISTA SIGUIENTE*/}
+        <Button title="CONTINUAR" />
+      </Link>
     </div>
   );
 }
