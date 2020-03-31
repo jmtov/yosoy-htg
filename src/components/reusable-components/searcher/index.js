@@ -1,6 +1,6 @@
-import React from "react";
-import styles from "./styles.module.scss";
-import Form from "./form";
+import React from 'react';
+import styles from './styles.module.scss';
+import Form from './form';
 
 class Searcher extends React.Component {
     render() {
