@@ -7,8 +7,8 @@ class Form extends React.Component {
   render() {
     return (
       <form action="" className={styles.containerBuscador}>
-        <div className={styles.containerLupa}>
-          <img src={lupa} className={styles.lupa} alt="lupa" />
+        <div className={styles.containerIcon}>
+          <img src={lupa} className={styles.icon} alt="lupa" />
         </div>
         <input type="text" placeholder={this.props.contBuscador} className={styles.buscador} />
       </form>
