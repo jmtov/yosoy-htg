@@ -17,7 +17,7 @@ function MedicineSelector() {
         <ContainerPastis />
         <Link to="/tablet">
           {}
-          <Button title="Continuar" />
+          <Button title="CONTINUAR" />
         </Link>
       </div>
     </div>
