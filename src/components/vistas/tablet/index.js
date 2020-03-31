@@ -1,25 +1,25 @@
 import React from 'react';
-import { Link } from "react-router-dom";
-import Topbar from "../../reusable-components/topbar";
+import { Link } from 'react-router-dom';
+import Topbar from '../../reusable-components/topbar';
 import ContainerCard from './container-card';
-import Button from "../../reusable-components/button";
+import Button from '../../reusable-components/button';
 import styles from './styles.module.scss';
 
 class Tablet extends React.Component {
-    render() {
-        return (
-            <div>
-                <Topbar />
-                <div className={styles.container}>
-                <ContainerCard />
-                <Link to="/foundations-selector">
-                    {}
-                    <Button title="Continuar" />
-                </Link>
-                </div>
-            </div>
-        );
-    }
+  render() {
+    return (
+      <div>
+        <Topbar />
+        <div className={styles.container}>
+          <ContainerCard />
+          <Link to="/foundations-selector">
+            {/* ACA VA EL SIGUIENTE COMPONENTE */}
+            <Button title="CONTINUAR" />
+          </Link>
+        </div>
+      </div>
+    );
+  }
 }
 
 export default Tablet;

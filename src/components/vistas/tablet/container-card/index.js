@@ -4,9 +4,9 @@ import Card from './card';
 
 class ContainerCard extends React.Component {
     render() {
-        return(
-            <div className={styles.ContainerCard}>
-                <Card/>
+        return (
+            <div className={styles.containerCard}>
+                <Card />
             </div>
         );
     }
