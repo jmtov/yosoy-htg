@@ -6,13 +6,13 @@ class Form extends React.Component {
 
   render() {
     return (
-      <form action="" className={styles.buscador}>
-        <div className={styles.lupa1}>
+      <form action="" className={styles.containerBuscador}>
+        <div className={styles.containerLupa}>
           <img src={lupa} className={styles.lupa} alt="lupa" />
         </div>
-        <input type="text" placeholder={this.props.contBuscador} className={styles.buscador2} />
+        <input type="text" placeholder={this.props.contBuscador} className={styles.buscador} />
       </form>
-    )
+    );
   }
 }
 
