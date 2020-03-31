@@ -1,10 +1,10 @@
 import React from 'react';
-import styles from "./styles.module.scss";
-import Topbar from "../../reusable-components/topbar";
+import styles from './styles.module.scss';
+import Topbar from '../../reusable-components/topbar';
 import Searcher from '../../reusable-components/searcher';
-import ContainerFundaciones from "./contenedor-fundaciones";
+import ContainerFundaciones from './contenedor-fundaciones';
 import Button from '../../reusable-components/button';
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 
 function FoundationsSelector() {
@@ -15,8 +15,8 @@ function FoundationsSelector() {
         <Searcher contBuscador="¿En que fundacion queres retirar?" title="FUNDACIONES AMIGAS" />
         <ContainerFundaciones />
         <Link to="/scanning">
-          {}
-          <Button title="Continuar" />
+          {/*ACA VA EL COMPONENTE QUE LE SIGUE, HABRIA QUE IMPORTARLO EN LA LINEA 8*/}
+          <Button title="CONTINUAR" />
         </Link>
       </div>
     </div>
