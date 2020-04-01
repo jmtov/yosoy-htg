@@ -1,9 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
 $blue-color: #0000ff;
 $pink-color: #FF0080;
 $hr-color: #808080;
 $text-button-color: #ffffff;
 $sha-blue-color: #94dbf8;
 $sha-pink-color: #ee9ca1;
+
+.background {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+}
+
 
 .home {
   width: 100%;
@@ -49,6 +61,7 @@ $sha-pink-color: #ee9ca1;
   background-color: $pink-color;
   color: $text-button-color;
   font-size: 20px;
+  font-family: 'Roboto', sans-serif;
   border-radius: 4px;
   margin-right: 24px;
   border-color: $pink-color;
@@ -67,6 +80,7 @@ $sha-pink-color: #ee9ca1;
   background-color: $blue-color;
   color: $text-button-color;
   font-size: 20px;
+  font-family: 'Roboto', sans-serif;
   border-radius: 4px;
   border-color: $blue-color;
   width: 250px;
