@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './styles.module.scss';
 import atripla from '../../../assets/atripla.png';
 
-class Targets extends React.Component {
+class Card extends React.Component {
   render() {
     return (
       <div className={styles.target}>
@@ -22,4 +22,4 @@ class Targets extends React.Component {
   }
 }
 
-export default Targets;
+export default Card;

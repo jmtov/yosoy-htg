@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Targets from './targets';
+import Targets from './cards';
 import styles from './styles.module.scss';
 
 class ContainerPastis extends React.Component {
@@ -9,14 +9,14 @@ class ContainerPastis extends React.Component {
       <div>
         <h4 className={styles.titleContainer}>{this.props.title}</h4>
         <form className={styles.contPastis}>
-          <Targets />
-          <Targets />
-          <Targets />
-          <Targets />
-          <Targets />
-          <Targets />
-          <Targets />
-          <Targets />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
         </form>
       </div>
     );
