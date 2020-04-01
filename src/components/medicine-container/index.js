@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Targets from './cards';
+import Card from './cards';
 import styles from './styles.module.scss';
 
 class ContainerPastis extends React.Component {
