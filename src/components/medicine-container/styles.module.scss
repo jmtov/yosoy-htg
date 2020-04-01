@@ -1,9 +1,14 @@
 .contPastis {
-    width: 776px;
-    height: 388px;
+    width: 900px;
+    height: 500px;
     display: flex;
     overflow: auto;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+h4 {
+    margin-bottom: 80px;
+    font-size: 18px;
+    color: #808080ef;
 }

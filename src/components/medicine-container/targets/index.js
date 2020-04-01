@@ -1,26 +1,25 @@
 import React from 'react';
 import styles from './styles.module.scss';
+import atripla from '../../../assets/atripla.png';
 
-class Tarjetas extends React.Component {
+class Targets extends React.Component {
   render() {
     return (
-      <div className={styles.tarjeta}>
+      <div className={styles.target}>
         <div className={styles.contFondo}>
           <div className={styles.title}>
-            <h1 className={styles.font}>ATRIPLA</h1>
+            <h1>ATRIPLA</h1>
           </div>
           <hr />
-          <div className={styles.imgPastilla}>
-            <img src="" alt="" />
-          </div>
+            <img className={styles.imgPastilla} src={atripla} alt="medicineImagen" />
         </div>
-        <div className={styles.radio2}>
-          <p className={styles.gramos}>100 mg</p>
+        <div className={styles.containerInferior}>
+          <p>100 mg</p>
         </div>
-        <input type="radio" name="card" id="1" className={styles.radio3} />
+        <input type="checkbox" name="checkbox" className={styles.radio} />
       </div>
     );
   }
 }
 
-export default Tarjetas;
+export default Targets;

@@ -1,7 +1,9 @@
-.tarjeta {
-    width: 170px;
-    height: 170px;
-    border: solid rgba(128, 128, 128, 0.089) 2px;
+$border-target: #80808017;
+
+.target {
+    width: 200px;
+    height: 210px;
+    border: solid 2px $border-target;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -11,10 +13,12 @@
     position: relative;
 }
 
-.radio3 {
+.radio {
     position: absolute;
-    margin-left: 65px;
-    margin-top: 50px;
+    margin-left: 64px;
+    margin-top: 60px;
+    -webkit-transform: scale(2);
+    padding: 60px;
 }
 
 .contFondo {
@@ -31,29 +35,31 @@
     align-items: center;
 }
 
-.font {
+h1 {
     font-size: 24px;
 }
 
 .imgPastilla {
-    width: 100%;
-    height: 40%;
-    border: solid pink 2px;
+    width: 90px;
+    height: 40px;
+    border-radius: 70px;
+    margin-left: 30px;
 }
 
-.radio2 {
+.containerInferior {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 20%;
 }
 
-.gramos {
+p {
+    color: #4c8faa;
     width: 60px;
     height: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid green 2px;
-    border-radius: 30px;
+    background: #94d3ec;
+    border-radius: 10px;
 }

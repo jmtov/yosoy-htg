@@ -6,10 +6,9 @@ class Searcher extends React.Component {
     render() {
         return (
             <div className={styles.contBuscador}>
-                <Form contBuscador={this.props.contBuscador} />
-                <h4>{this.props.title}</h4>
+                <Form placeholder={this.props.placeholder} />
             </div>
-        )
+        );
     }
 }
 
