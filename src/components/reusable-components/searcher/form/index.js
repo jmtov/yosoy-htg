@@ -10,7 +10,7 @@ class Form extends React.Component {
         <div className={styles.containerIcon}>
           <img src={lupa} className={styles.icon} alt="lupa" />
         </div>
-        <input type="text" placeholder={this.props.contBuscador} className={styles.buscador} />
+        <input type="text" placeholder={this.props.placeholder} className={styles.buscador} />
       </form>
     );
   }

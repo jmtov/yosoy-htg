@@ -1,0 +1,15 @@
+.contPastis {
+    width: 900px;
+    height: 500px;
+    display: flex;
+    overflow: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleContainer {
+    margin-bottom: 80px;
+    font-size: 18px;
+    color: #808080ef;
+}

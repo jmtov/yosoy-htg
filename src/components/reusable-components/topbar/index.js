@@ -1,14 +1,17 @@
 import React from 'react';
 import styles from './styles.module.scss';
-import images from '../../../assets';
-import Logo from './logo';
-import Back from './back';
+import logo from '../../../assets/logo.png';
+import back from '../../../assets/back.png';
 
 function Topbar() {
   return (
     <nav className={styles.nav}>
-      <Back assets={images[0].url} />
-      <Logo assets={images[1].url} />
+      <button className={styles.button}>
+        <img src={back} className={styles.iconBack} alt="back" />
+      </button>
+      <div>
+        <img src={logo} className={styles.iconLogo} alt="logo" />
+      </div>
     </nav>
   );
 }
