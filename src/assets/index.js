@@ -2,7 +2,6 @@ import back from '../assets/back.png';
 
 import logo from '../assets/logo.png';
 
-
 const images = [
     {
       url: back,
