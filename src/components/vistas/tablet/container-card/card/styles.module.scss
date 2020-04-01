@@ -1,0 +1,70 @@
+.card {
+  width: 46vh;
+  height: 60vh;
+  border: solid rgba(128, 128, 128, 0.089) 4px;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.hr {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: #d5d2ca;
+  opacity: 0.3;
+  height: 1px;
+  width: 80%;
+}
+
+.medicamento {
+  height: 40px;
+  margin-left: 12vh;
+}
+
+.title {
+  text-align: center;
+  font-size: 26px;
+}
+
+.subtitle {
+  margin-left: 3vh;
+  font-size: 20px;
+}
+
+.alert {
+  background: #d5d2ca;
+  border-radius: 10px;
+  margin-top: 4vh;
+  margin-left: 4vh;
+  width: 80%;
+  height: 10vh;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 18px;
+}
+
+.text {
+  margin-left: 3vh;
+}
+
+.condition {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-size: 20px;
+  margin-top: 2vh;
+  margin-left: 8vh;
+  height: 100px;
+}
+
+.radio {
+  -webkit-transform: scale(2);
+  padding: 60px;
+  margin-right: 20px;
+}

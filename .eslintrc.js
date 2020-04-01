@@ -1,4 +1,4 @@
-module.exports = { 
+module.exports = {
   extends: ['wolox-react'],
   settings: {
     'react': {
@@ -14,4 +14,4 @@ module.exports = {
     'no-unused-vars': 'off',
     'no-use-before-define': 'off'
   }
- };
+};
