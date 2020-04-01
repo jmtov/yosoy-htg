@@ -42,7 +42,7 @@
   position: relative;
 }
 
-.button1 {
+.buttonEnd {
   background-color: rgba(255, 255, 255, 0.842);
   color: rgba(33, 90, 211, 0.651);
   font-size: 20px;
@@ -55,7 +55,6 @@
 
   &:hover {
     transform: translateY(-4px);
-    box-shadow: 0 4px 4px rgba(255, 255, 255, 0.685);
     cursor: pointer;
   }
 }
