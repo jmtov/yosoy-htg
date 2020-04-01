@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import MedicineSelector from '../medicine-selector';
 import styles from './styles.module.scss';
 
 function Home() {
@@ -21,7 +22,7 @@ function Home() {
             QUIERO DONAR
             </button>
           <Link to="/medicine-selector">
-            {} {/*En esta linea va a ir el componente que le sigue*/}
+            {MedicineSelector}
             <button type="submit" className={styles.button2}>
               QUIERO PEDIR
               </button>
