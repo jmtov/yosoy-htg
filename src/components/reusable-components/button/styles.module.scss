@@ -1,17 +1,16 @@
+$color-blue: #3f3fca;
+
 .button {
-    background-color: blue;
-    color: white;
-    font-size: 20px;
-    border-radius: 5px;
-    border-color: blue;
-    width: 250px;
-    height: 64px;
-    transition: all 0.1s;
+  background-color: $color-blue;
+  color: white;
+  font-size: 30px;
+  border-radius: 20px;
+  width: 300px;
+  height: 64px;
+  transition: all 0.1s;
 
-    &:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 30px 30px #94dbf8;
-        cursor: pointer;
-    }
-
+  &:hover {
+    transform: translateY(-4px);
+    cursor: pointer;
+  }
 }
