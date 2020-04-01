@@ -11,7 +11,7 @@ class Targets extends React.Component {
             <h1>ATRIPLA</h1>
           </div>
           <hr />
-            <img className={styles.imgPastilla} src={atripla} alt="medicineImagen" />
+          <img className={styles.imgPastilla} src={atripla} alt="medicineImagen" />
         </div>
         <div className={styles.containerInferior}>
           <p>100 mg</p>
