@@ -5,6 +5,7 @@ import Topbar from '../../reusable-components/topbar';
 import Searcher from '../../reusable-components/searcher';
 import ContainerPastis from '../../medicine-container';
 import Button from '../../reusable-components/button';
+import Tablet from '../tablet';
 
 import styles from './styles.module.scss';
 
@@ -17,7 +18,7 @@ function MedicineSelector() {
         <ContainerPastis title="MEDICAMENTOS MÁS UTILIZADOS" />
       </div>
       <Link to="/tablet">
-        {} {/*ACA VA LA VISTA SIGUIENTE*/}
+        {Tablet}
         <Button title="CONTINUAR" />
       </Link>
     </div>

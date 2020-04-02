@@ -4,6 +4,7 @@ import Topbar from '../../reusable-components/topbar';
 import ContainerCard from './container-card';
 import Button from '../../reusable-components/button';
 import styles from './styles.module.scss';
+import FoundationsSelector from '../foundations-selector';
 
 class Tablet extends React.Component {
   render() {
@@ -13,7 +14,7 @@ class Tablet extends React.Component {
         <div className={styles.container}>
           <ContainerCard />
           <Link to="/foundations-selector">
-            {/* ACA VA EL SIGUIENTE COMPONENTE */}
+            {FoundationsSelector}
             <Button title="CONTINUAR" />
           </Link>
         </div>
