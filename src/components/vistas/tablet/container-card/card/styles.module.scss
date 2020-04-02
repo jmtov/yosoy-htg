@@ -1,0 +1,78 @@
+$border-target: #80808017;
+$hr-color: #808080;
+
+.card {
+  width: 430px;
+  height: 580px;
+  border: solid 4px $border-target;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+}
+
+.hr {
+  display: block;
+  margin-bottom: 10px;
+  background-color: $hr-color;
+  opacity: 0.3;
+  height: 1px;
+  width: 80%;
+}
+
+.imgPastilla {
+  width: 70px;
+  height: 28px;
+  border-radius: 70px;
+  margin-left: 18vh;
+}
+
+.conposition {
+  height: 110px;
+  font-size: 16px;
+  margin-left: 4vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.subtitile {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.alert {
+  background: $border-target;
+  border-radius: 10px;
+  margin-top: 4vh;
+  margin-left: 4vh;
+  width: 80%;
+  height: 100px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.condition {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-size: 18px;
+  margin-left: 8vh;
+  height: 60px;
+}
+
+.radio {
+  transform: scale(2);
+  padding: 60px;
+  margin-right: 20px;
+}
