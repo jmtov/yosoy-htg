@@ -1,9 +1,18 @@
-.contTarjetas{
-    width: 776px;
-    height: 388px;
-    display: flex;
-    overflow: auto;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+$color-title:#808080ef;
+
+.contTarjetas {
+  width: 776px;
+  height: 388px;
+  display: flex;
+  overflow: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleContainer {
+  margin-bottom: 80px;
+  font-size: 18px;
+  color: $color-title;
+  font-family: Arial, Helvetica, sans-serif;
 }
