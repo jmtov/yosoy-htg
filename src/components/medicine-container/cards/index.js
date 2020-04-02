@@ -14,7 +14,7 @@ class Card extends React.Component {
           <img className={styles.imgPastilla} src={atripla} alt="medicineImagen" />
         </div>
         <div className={styles.containerInferior}>
-          <p>100 mg</p>
+          <p className={styles.grams}>100 mg</p>
         </div>
         <input type="checkbox" name="checkbox" className={styles.radio} />
       </div>

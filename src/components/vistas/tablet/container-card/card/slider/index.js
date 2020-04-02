@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './styles.module.scss';
 
 
-class Stick extends React.Component {
+class Slider extends React.Component {
   render() {
     return (
       <div className={styles.inputRange}>
@@ -18,4 +18,4 @@ class Stick extends React.Component {
   }
 }
 
-export default Stick;
+export default Slider;

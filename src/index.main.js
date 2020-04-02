@@ -5,8 +5,9 @@ import Home from './components/vistas/home';
 import MedicineSelector from './components/vistas/medicine-selector';
 import Tablet from './components/vistas/tablet';
 import FoundationsSelector from './components/vistas/foundations-selector';
-import Scaner from './components/vistas/scaner';
+import Scanner from './components/vistas/scanner';
 import Camara from './components/vistas/camara';
+
 
 const Main = () => (
   <main>
@@ -14,8 +15,8 @@ const Main = () => (
       <Route exact path="/" component={Home} />
       <Route exact path="/medicine-selector" component={MedicineSelector} />
       <Route exact path="/tablet" component={Tablet} />
-      <Route exact path="/" component={FoundationsSelector} />
-      <Route exact path="/scaner" component={Scaner} />
+      <Route exact path="/foundations-selector" component={FoundationsSelector} />
+      <Route exact path="/scanner" component={Scanner} />
       <Route exact path="/camara" component={Camara} />
     </Switch>
   </main>
