@@ -16,7 +16,7 @@ function Targets() {
           <p>9. a 19.</p>
         </div>
       </div>
-      <input type="radio" name="card" id="1" className={styles.radio3} />
+      <input type="checkbox" name="checkbox" className={styles.radio} />
     </div>
   );
 }

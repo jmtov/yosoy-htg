@@ -17,7 +17,7 @@ $border-target: #80808017;
     position: absolute;
     margin-left: 64px;
     margin-top: 60px;
-    -webkit-transform: scale(2);
+    transform: scale(2);
     padding: 60px;
 }
 
@@ -53,7 +53,7 @@ h1 {
     height: 20%;
 }
 
-p {
+.grams {
     color: #4c8faa;
     width: 60px;
     height: 25px;
