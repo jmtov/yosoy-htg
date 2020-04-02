@@ -4,10 +4,11 @@ import { Link } from 'react-router-dom';
 
 function Confirmation() {
   return (
-    <div className={styles.cont1}>
-      <div className={styles.info}>
+    <div className={styles.contenedorPrincipal}>
+      <div className={styles.containerText}>
         <h1 className={styles.title}>¡Todo listo!</h1>
-        <p className={styles.text}>La Fundacion Hablemos de HIV te está esperando. Recordá que solo podemos reservar la medicación que pediste durante las proximas 72hs.</p>
+        <p >La Fundacion Hablemos de HIV te está esperando.</p>
+        <p className={styles.text}> Recordá que solo podemos reservar la medicación que pediste durante las proximas 72hs.</p>
         <h2 className={styles.subtitle}>¿Qué tengo que llevar?</h2>
         <p className={styles.text}>Solo necesitás presentar tu DNI.</p>
       </div>
