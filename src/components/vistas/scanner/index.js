@@ -9,7 +9,7 @@ function Scanner() {
     <div className={styles.contenedorPrincipal}>
       <Topbar />
       <div className={styles.containerText}>
-        <h1 className={styles.title}>¡Último paso!</h1>
+        <h1 className={styles.titleEnd}>¡Último paso!</h1>
         <p className={styles.text}>
           Lo único que necesitamos para finalizar es que escanees el frente de
           tu DNI.
