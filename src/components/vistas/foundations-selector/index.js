@@ -12,8 +12,8 @@ function FoundationsSelector() {
     <div>
       <Topbar />
       <div className={styles.contenedorPrincipal}>
-        <Searcher contBuscador="¿En que fundacion queres retirar?" title="FUNDACIONES AMIGAS" />
-        <ContainerFundaciones />
+        <Searcher placeholder="¿En qué fundación querés retirar?" />
+        <ContainerFundaciones title="FUNDACIONES AMIGAS" />
         <Link to="/scanning">
           {/*ACA VA EL COMPONENTE QUE LE SIGUE, HABRIA QUE IMPORTARLO EN LA LINEA 8*/}
           <Button title="CONTINUAR" />
