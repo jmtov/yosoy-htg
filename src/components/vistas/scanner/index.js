@@ -6,28 +6,27 @@ import Topbar from '../../reusable-components/topbar';
 
 function Scanner() {
   return (
-    <div>
+    <div className={styles.contenedorPrincipal}>
       <Topbar />
       <div className={styles.containerText}>
-        <div className={styles.contenido}>
-          <h1 className={styles.title}>¡Último paso!</h1>
-          <p>
-            Lo único que necesitamos para finalizar es que escanees el frente de
-            tu DNI.
+        <h1 className={styles.title}>¡Último paso!</h1>
+        <p className={styles.text}>
+          Lo único que necesitamos para finalizar es que escanees el frente de
+          tu DNI.
           </p>
-          <h2 className={styles.subtitle}> ¿Para qué necesitan mi DNI?</h2>
-          <p>
-            Para asegurarnos de que el medicamento que pediste sea retirado y
-            esté reservado solo para vos.
+        <h2 className={styles.subtitle}> ¿Para qué necesitan mi DNI?</h2>
+        <p className={styles.text}>
+          Para asegurarnos de que el medicamento que pediste sea retirado y
+          esté reservado solo para vos.
           </p>
-        </div>
       </div>
       <div className={styles.containterScanner}>
-        <Link to="/camara">
-          {/*aca adentro va el componente que le sigue*/}
-          <h1 className={styles.titleScan}>Escanear acá</h1>
+        <h1 className={styles.titleScan}>Escanear acá</h1>
+        <Link to="/camara"> {/*aca adentro va el componente que le sigue*/}
+          <div className={styles.containerCard}>
+            <img src={scanner} className={styles.scanner} />
+          </div>
         </Link>
-        <img src={scanner} className={styles.scanner} />
       </div>
     </div>
   );
