@@ -3,6 +3,7 @@ import styles from './styles.module.scss';
 import { Link } from 'react-router-dom';
 import scanner from '../../../assets/scanner.png';
 import Topbar from '../../reusable-components/topbar';
+import Camara from '../camara';
 
 function Scanner() {
   return (
@@ -22,7 +23,7 @@ function Scanner() {
       </div>
       <div className={styles.containterScanner}>
         <h1 className={styles.titleScan}>Escanear acá</h1>
-        <Link to="/camara"> {/*aca adentro va el componente que le sigue*/}
+        <Link to="/camara"> {Camara}
           <div className={styles.containerCard}>
             <img src={scanner} className={styles.scanner} />
           </div>

@@ -16,7 +16,7 @@ function FoundationsSelector() {
         <Searcher placeholder="¿En qué fundación querés retirar?" />
         <ContainerFundaciones title="FUNDACIONES AMIGAS" />
         <Link to="/scanner">
-          {/*ACA VA EL SIGUIENTE COMPONENTE SCANNER */}
+          {Scanner}
           <Button title="CONTINUAR" />
         </Link>
       </div>
