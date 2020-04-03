@@ -18,7 +18,7 @@ function Scanner() {
         <p className={styles.text}>
           Para asegurarnos de que el medicamento que pediste sea retirado y
           esté reservado solo para vos.
-          </p>
+        </p>
       </div>
       <div className={styles.containterScanner}>
         <h1 className={styles.titleScan}>Escanear acá</h1>
