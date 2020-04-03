@@ -4,6 +4,7 @@ import Topbar from '../../reusable-components/topbar';
 import camara from '../../../assets/camara.png';
 import { Link } from 'react-router-dom';
 import Button from '../../reusable-components/button';
+import Confirmation from '../confirmation';
 
 class Camara extends React.Component {
   render() {
@@ -13,7 +14,7 @@ class Camara extends React.Component {
         <div className={styles.cam}>
           <img src={camara} alt='camara' />
           <Link to="/confirmation">
-            {/*ACA VA EL SIGUIENTE COMPONENTE*/}
+            {Confirmation}
             <Button title="CONTINUAR" />
           </Link>
         </div>
