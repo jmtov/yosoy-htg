@@ -14,8 +14,8 @@ function FoundationsSelector() {
       <div className={styles.contenedorPrincipal}>
         <Searcher placeholder="¿En qué fundación querés retirar?" />
         <ContainerFundaciones title="FUNDACIONES AMIGAS" />
-        <Link to="/scanning">
-          {/*ACA VA EL COMPONENTE QUE LE SIGUE, HABRIA QUE IMPORTARLO EN LA LINEA 8*/}
+        <Link to="/scanner">
+          {/*ACA VA EL SIGUIENTE COMPONENTE SCANNER */}
           <Button title="CONTINUAR" />
         </Link>
       </div>

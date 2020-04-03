@@ -1,6 +1,8 @@
-.contCards {
-  width: 900px;
-  height: 520px;
+$color-title:#808080ef;
+
+.contTarjetas {
+  width: 776px;
+  height: 388px;
   display: flex;
   overflow: auto;
   flex-wrap: wrap;
@@ -11,6 +13,6 @@
 .titleContainer {
   margin-bottom: 80px;
   font-size: 18px;
-  color: #808080ef;
+  color: $color-title;
   font-family: Arial, Helvetica, sans-serif;
 }
