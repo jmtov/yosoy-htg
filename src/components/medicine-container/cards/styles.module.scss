@@ -1,65 +1,69 @@
 $border-target: #80808017;
 
-.target {
-    width: 200px;
-    height: 210px;
-    border: solid 4px $border-target;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
-    position: relative;
+.containerCards {
+  width: 200px;
+  height: 210px;
+  border: solid 4px $border-target;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  position: relative;
 }
 
-.radio {
-    position: absolute;
-    margin-left: 64px;
-    margin-top: 60px;
-    transform: scale(2);
-    padding: 60px;
+.containterBackground {
+  width: 80vh;
+  height: 100%;
 }
 
-.contFondo {
-    width: 70%;
-    height: 60%;
+.checkbox {
+  position: absolute;
+  margin-left: 64px;
+  margin-top: 64px;
+  transform: scale(2);
+  padding: 60px;
 }
 
-.title {
-    width: 100%;
-    height: 25%;
-    margin-top: 2px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.containerTitle {
+  width: 90%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
 }
 
-h1 {
-    font-size: 24px;
+.titleMedicine {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
 }
 
 .imgPastilla {
-    width: 90px;
-    height: 40px;
-    border-radius: 70px;
-    margin-left: 30px;
+  width: 70px;
+  height: 30px;
+  border-radius: 70px;
+  margin-left: 6px;
+  margin-top: 8px;
 }
 
-.containerInferior {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 20%;
+.containerDates {
+  margin-top: 30px;
+  margin-left: 6px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 6px;
 }
 
 .grams {
-    color: #4c8faa;
-    width: 60px;
-    height: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #94d3ec;
-    border-radius: 10px;
+  color: #2566b1;
+  width: 60px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #94d3ec;
+  border-radius: 10px;
 }

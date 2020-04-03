@@ -12,7 +12,7 @@ class Camara extends React.Component {
       <div>
         <Topbar />
         <div className={styles.cam}>
-          <img src={camara} alt='camara' />
+          <img src={camara} alt='camara'  className={styles.iconCamara}/>
           <Link to="/confirmation">
             {Confirmation}
             <Button title="CONTINUAR" />

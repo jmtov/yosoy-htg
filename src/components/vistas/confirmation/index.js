@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './styles.module.scss';
 import { Link } from 'react-router-dom';
+import Home from '../home';
 
 function Confirmation() {
   return (
@@ -13,7 +14,7 @@ function Confirmation() {
         <p className={styles.text}>Solo necesitás presentar tu DNI.</p>
       </div>
       <Link to="/">
-        {/*aca va el componente home para que cuando finalices vuelvas al inicio */}
+        {Home}
         <button className={styles.buttonEnd}>
           FINALIZAR
         </button>

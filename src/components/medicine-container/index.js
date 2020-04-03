@@ -8,15 +8,15 @@ class ContainerPastis extends React.Component {
     return (
       <div>
         <h4 className={styles.titleContainer}>{this.props.title}</h4>
-        <form className={styles.contPastis}>
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
+        <form className={styles.contCards}>
+          <Card titleMedicine="ATRIPLA"/>
+          <Card titleMedicine="STRIBILD"/>
+          <Card titleMedicine="ATRIPLA"/>
+          <Card titleMedicine="STRIBILD"/>
+          <Card titleMedicine="GENVOYA"/>
+          <Card titleMedicine="OFDESEY"/>
+          <Card titleMedicine="GENVOYA"/>
+          <Card titleMedicine="OFDESEY"/>
         </form>
       </div>
     );

@@ -13,10 +13,8 @@ function MedicineSelector() {
   return (
     <div className={styles.containerPrincipal}>
       <Topbar />
-      <div className={styles.containerTwo}>
         <Searcher placeholder="¿Qué medicamentos estás buscando?" />
         <ContainerPastis title="MEDICAMENTOS MÁS UTILIZADOS" />
-      </div>
       <Link to="/tablet">
         {Tablet}
         <Button title="CONTINUAR" />
