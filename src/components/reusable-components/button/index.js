@@ -5,7 +5,7 @@ class Button extends React.Component {
   render() {
     return (
       <button className={styles.button}>{this.props.title}</button>
-    )
+    );
   }
 }
 

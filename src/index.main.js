@@ -7,7 +7,7 @@ import Tablet from './components/vistas/tablet';
 import FoundationsSelector from './components/vistas/foundations-selector';
 import Scanner from './components/vistas/scanner';
 import Camara from './components/vistas/camara';
-
+import Confirmation from './components/vistas/confirmation';
 
 const Main = () => (
   <main>
@@ -18,6 +18,7 @@ const Main = () => (
       <Route exact path="/foundations-selector" component={FoundationsSelector} />
       <Route exact path="/scanner" component={Scanner} />
       <Route exact path="/camara" component={Camara} />
+      <Route exact path="/confirmation" component={Confirmation} />
     </Switch>
   </main>
 );
