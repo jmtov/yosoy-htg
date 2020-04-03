@@ -10,7 +10,7 @@ class Tablet extends React.Component {
   render() {
     return (
       <div>
-        <Topbar />
+        <Topbar link={"/medicine-selector"}/>
         <div className={styles.container}>
           <ContainerCard />
           <Link to="/foundations-selector">

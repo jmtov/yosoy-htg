@@ -10,7 +10,7 @@ class Camara extends React.Component {
   render() {
     return (
       <div>
-        <Topbar />
+        <Topbar link={"/scanner"} />
         <div className={styles.cam}>
           <img src={camara} alt='camara'  className={styles.iconCamara}/>
           <Link to="/confirmation">

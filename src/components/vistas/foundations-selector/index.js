@@ -11,7 +11,7 @@ import Scanner from '../scanner';
 function FoundationsSelector() {
   return (
     <div>
-      <Topbar />
+      <Topbar link={"/tablet"}/>
       <div className={styles.contenedorPrincipal}>
         <Searcher placeholder="¿En qué fundación querés retirar?" />
         <ContainerFundaciones title="FUNDACIONES AMIGAS" />

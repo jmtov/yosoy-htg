@@ -12,7 +12,7 @@ import styles from './styles.module.scss';
 function MedicineSelector() {
   return (
     <div className={styles.containerPrincipal}>
-      <Topbar />
+      <Topbar link={"/"}/>
         <Searcher placeholder="¿Qué medicamentos estás buscando?" />
         <ContainerPastis title="MEDICAMENTOS MÁS UTILIZADOS" />
       <Link to="/tablet">

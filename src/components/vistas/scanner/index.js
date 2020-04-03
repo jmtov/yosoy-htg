@@ -8,7 +8,7 @@ import Camara from '../camara';
 function Scanner() {
   return (
     <div className={styles.contenedorPrincipal}>
-      <Topbar />
+      <Topbar link={"/foundations-selector"}/>
       <div className={styles.containerText}>
         <h1 className={styles.titleEnd}>¡Último paso!</h1>
         <p className={styles.text}>
