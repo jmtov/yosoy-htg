@@ -1,3 +1,5 @@
+$color-title:#808080ef;
+
 .contPastis {
     width: 940px;
     height: 500px;
@@ -11,5 +13,5 @@
 .titleContainer {
     margin-bottom: 80px;
     font-size: 18px;
-    color: #808080ef;
+    color: $color-title;
 }
