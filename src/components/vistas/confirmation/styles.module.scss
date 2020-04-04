@@ -1,4 +1,4 @@
-$color-backround: #215ad3a6;
+$color-blue:#7688F6;
 $color-text-end: #011a508e;
 $color-white: #ffffffd7;
 
@@ -10,7 +10,7 @@ $color-white: #ffffffd7;
   justify-content: space-evenly;
   align-items: center;
   color: $color-white;
-  background-color: $color-backround;
+  background-color: $color-blue;
 }
 
 .containerText {
@@ -41,7 +41,7 @@ $color-white: #ffffffd7;
 
 .buttonEnd {
   background-color: $color-white;
-  color: $color-backround;
+  color: $color-blue;
   font-size: 20px;
   font-weight: 900;
   border-radius: 16px;
