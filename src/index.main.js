@@ -1,13 +1,13 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
-import Home from './components/vistas/home';
-import MedicineSelector from './components/vistas/medicine-selector';
-import Tablet from './components/vistas/tablet';
-import FoundationsSelector from './components/vistas/foundations-selector';
-import Scanner from './components/vistas/scanner';
-import Camara from './components/vistas/camara';
-import Confirmation from './components/vistas/confirmation';
+import Home from './components/screens/home';
+import MedicineSelector from './components/screens/medicine-selector';
+import Tablet from './components/screens/tablet';
+import FoundationsSelector from './components/screens/foundations-selector';
+import Scanner from './components/screens/scanner';
+import Camara from './components/screens/camara';
+import Confirmation from './components/screens/confirmation';
 
 const Main = () => (
   <main>
