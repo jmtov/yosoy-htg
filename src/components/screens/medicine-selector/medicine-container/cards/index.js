@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './styles.module.scss';
-import atripla from '../../../assets/atripla.png';
+import atripla from '../../../../../assets/atripla.png';
 
 class Card extends React.Component {
   render() {
