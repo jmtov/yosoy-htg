@@ -23,6 +23,10 @@ function Home() {
             QUIERO PEDIR
               </button>
         </Link>
+        <footer className={styles.footer}>
+          <hr className={styles.hrFoot} />
+          <p className={styles.textFooter}>Copyright © 2019 YOSOY. Todos los derechos reservados.</p>
+        </footer>
       </div>
     </div>
   );

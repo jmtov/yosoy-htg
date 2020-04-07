@@ -8,7 +8,7 @@ import Camara from '../camara';
 function Scanner() {
   return (
     <div className={styles.contenedorPrincipal}>
-      <Topbar link={"/foundations-selector"}/>
+      <Topbar link={"/foundations-selector"} />
       <div className={styles.containerText}>
         <h1 className={styles.titleEnd}>¡Último paso!</h1>
         <p className={styles.text}>
@@ -28,6 +28,10 @@ function Scanner() {
             <img src={scanner} className={styles.scanner} />
           </div>
         </Link>
+        <footer className={styles.footer}>
+          <hr className={styles.hrFoot} />
+          <p className={styles.textFooter}>Copyright © 2019 YOSOY. Todos los derechos reservados.</p>
+        </footer>
       </div>
     </div>
   );

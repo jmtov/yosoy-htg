@@ -18,6 +18,10 @@ class Camara extends React.Component {
             <Button title="CONTINUAR" />
           </Link>
         </div>
+        <footer className={styles.footer}>
+          <hr className={styles.hrFoot} />
+          <p className={styles.textFooter}>Copyright © 2019 YOSOY. Todos los derechos reservados.</p>
+        </footer>
       </div>
     );
   }

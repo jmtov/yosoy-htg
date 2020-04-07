@@ -11,7 +11,7 @@ import Scanner from '../scanner';
 function FoundationsSelector() {
   return (
     <div>
-      <Topbar link={"/tablet"}/>
+      <Topbar link={"/tablet"} />
       <div className={styles.contenedorPrincipal}>
         <Searcher placeholder="¿En qué fundación querés retirar?" />
         <ContainerFundaciones title="FUNDACIONES AMIGAS" />
@@ -19,6 +19,10 @@ function FoundationsSelector() {
           {Scanner}
           <Button title="CONTINUAR" />
         </Link>
+        <footer className={styles.footer}>
+          <hr className={styles.hrFoot} />
+          <p className={styles.textFooter}>Copyright © 2019 YOSOY. Todos los derechos reservados.</p>
+        </footer>
       </div>
     </div>
   );

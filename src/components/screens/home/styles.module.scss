@@ -1,5 +1,5 @@
-$color-blue:#7688F6;
-$pink-color: #FF6A9B;
+$color-blue: #3f3fca;
+$pink-color: #FF0080;
 $hr-color: #808080;
 $text-button-color: #ffffff;
 
@@ -10,11 +10,12 @@ $text-button-color: #ffffff;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  font-style: Open sans;
 }
 
 .containerWelcome {
   width: 90%;
-  height: 80vh;
+  height: 65%;
   display: flex;
   flex-direction: column;
   line-height: 2px;
@@ -27,8 +28,9 @@ $text-button-color: #ffffff;
 }
 
 .textHome {
-font-weight: 600;
-font-size: 30px;
+  font-weight: 600;
+  font-size: 30px;
+  width: 90%;
 }
 
 .hr {
@@ -38,12 +40,12 @@ font-size: 30px;
   background-color: $hr-color;
   opacity: 0.3;
   height: 2px;
-  width: 98%;
+  width: 90%;
 }
 
 .containerButton {
   width: 90%;
-  height: 30%;
+  height: 25%;
   margin-top: calc(2% + 28px);
 }
 
@@ -83,30 +85,117 @@ font-size: 30px;
   }
 }
 
-@media only screen and (max-width:500px) {
+.footer {
+  visibility: hidden;
+}
+
+@media all and (max-width: 640px) {
 
   /*Aca cuando uso Eslint me hace un salto de linea de la llave hacia el containerButton y queda un espacio*/
-  .containerButton,
   .containerHome {
-    width: 100%;
+    height: 100vh;
+  }
+
+  .containerWelcome {
+    height: 50vh;
+    display: flex;
+    line-height: 4px;
+    margin-top: 8px;
+    text-align: center;
+    justify-content: space-evenly;
+  }
+
+  .titleHome {
+    width: 60%;
+    font-size: 66px;
+    margin-top: 10vh;
+    margin-left: 5vh;
+  }
+
+  .textHome {
+    font-weight: 600;
+    font-size: 26px;
+    box-sizing: content-box;
+    width: 60%;
+    text-align: start;
+    line-height: 30px;
+    margin-left: 6vh;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .hr {
+    width: 60%;
+    margin-bottom: 30px;
+    background-color: $hr-color;
   }
 
   .containerButton {
     display: flex;
     align-content: center;
+    height: 50vh;
+    width: 60%;
+    flex-direction: column;
+    line-height: 4px;
+    text-align: center;
+    justify-content: center;
   }
 
-  .button1,
+  .button1 {
+    background-color: $pink-color;
+    color: $text-button-color;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 8px;
+    border-color: $pink-color;
+    width: 100%;
+    height: 90px;
+    margin-bottom: 10px;
+    transition: all 0.1s;
+    box-sizing: content-box;
+
+    &:hover {
+      transform: translateY(-4px);
+      cursor: pointer;
+    }
+  }
+
   .button2 {
-    width: 120px;
-    font-size: 16px;
-  }
-}
+    background-color: $color-blue;
+    color: $text-button-color;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 8px;
+    border-color: $color-blue;
+    width: 100%;
+    height: 90px;
+    margin-bottom: 90px;
+    transition: all 0.1s;
+    box-sizing: content-box;
+    align-items: center;
 
-.background {
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    &:hover {
+      transform: translateY(-4px);
+      cursor: pointer;
+    }
+  }
+
+  .footer {
+    visibility: visible;
+    height: 10vh;
+  }
+
+  .hrFooter {
+    width: 60%;
+    background-color: $hr-color;
+    opacity: 0.3;
+    height: 2px;
+  }
+
+  .textFooter {
+    font-size: 10px;
+    color: $hr-color;
+    height: 30px;
+    line-height: 14px;
+  }
 }
