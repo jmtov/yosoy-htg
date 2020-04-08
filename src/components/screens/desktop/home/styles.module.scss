@@ -1,7 +1,10 @@
-$color-blue: #3f3fca;
-$pink-color: #FF0080;
-$hr-color: #808080;
-$text-button-color: #ffffff;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+$color-blue: #7688F6;
+$pink-color: #FF6A9B;
+$black-color: #505767;
+$hr-color: #EFEFEF;
+$text-button-color: #FFFFFF;
 
 .containerHome {
   width: 100%;
@@ -10,7 +13,7 @@ $text-button-color: #ffffff;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  font-style: Open sans;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .containerWelcome {
@@ -25,12 +28,15 @@ $text-button-color: #ffffff;
 .titleHome {
   color: $color-blue;
   font-size: 90px;
+  font-style: normal;
+  font-weight: bold;
 }
 
 .textHome {
-  font-weight: 600;
   font-size: 30px;
   width: 90%;
+  font-weight: bold;
+  color: $black-color;
 }
 
 .hr {
