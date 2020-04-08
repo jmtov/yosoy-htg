@@ -49,7 +49,6 @@ $text-button-color: #ffffff;
   margin-top: calc(2% + 28px);
 }
 
-
 .button1 {
   background-color: $pink-color;
   color: $text-button-color;
@@ -113,7 +112,6 @@ $text-button-color: #ffffff;
   }
 
   .textHome {
-    font-weight: 600;
     font-size: 26px;
     box-sizing: content-box;
     width: 60%;
@@ -127,7 +125,6 @@ $text-button-color: #ffffff;
   .hr {
     width: 60%;
     margin-bottom: 30px;
-    background-color: $hr-color;
   }
 
   .containerButton {
@@ -142,12 +139,6 @@ $text-button-color: #ffffff;
   }
 
   .button1 {
-    background-color: $pink-color;
-    color: $text-button-color;
-    font-size: 20px;
-    font-weight: 800;
-    border-radius: 8px;
-    border-color: $pink-color;
     width: 100%;
     height: 90px;
     margin-bottom: 10px;
@@ -161,12 +152,6 @@ $text-button-color: #ffffff;
   }
 
   .button2 {
-    background-color: $color-blue;
-    color: $text-button-color;
-    font-size: 20px;
-    font-weight: 800;
-    border-radius: 8px;
-    border-color: $color-blue;
     width: 100%;
     height: 90px;
     margin-bottom: 90px;
