@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Topbar from '../../reusable-components/topbar';
+import Topbar from '../../../reusable-components/topbar';
 import ContainerCard from './container-card';
-import Button from '../../reusable-components/button';
+import Button from '../../../reusable-components/button';
 import styles from './styles.module.scss';
 import FoundationsSelector from '../foundations-selector';
 

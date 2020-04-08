@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from './styles.module.scss';
-import Topbar from '../../reusable-components/topbar';
+import Topbar from '../../../reusable-components/topbar';
 import camara from '../../../assets/camara.png';
 import { Link } from 'react-router-dom';
-import Button from '../../reusable-components/button';
+import Button from '../../../reusable-components/button';
 import Confirmation from '../confirmation';
 
 class Camara extends React.Component {

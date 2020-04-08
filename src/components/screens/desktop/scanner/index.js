@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './styles.module.scss';
 import { Link } from 'react-router-dom';
-import scanner from '../../../assets/scanner.png';
-import Topbar from '../../reusable-components/topbar';
+import scanner from '../../../../assets/scanner.png';
+import Topbar from '../../../reusable-components/topbar';
 import Camara from '../camara';
 
 function Scanner() {

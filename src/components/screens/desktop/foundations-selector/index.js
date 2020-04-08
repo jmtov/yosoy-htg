@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from './styles.module.scss';
-import Topbar from '../../reusable-components/topbar';
-import Searcher from '../../reusable-components/searcher';
+import Topbar from '../../../reusable-components/topbar';
+import Searcher from '../../../reusable-components/searcher';
 import ContainerFundaciones from './contenedor-fundaciones';
-import Button from '../../reusable-components/button';
+import Button from '../../../reusable-components/button';
 import { Link } from 'react-router-dom';
 import Scanner from '../scanner';
 
