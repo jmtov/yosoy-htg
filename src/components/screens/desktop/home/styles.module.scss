@@ -3,6 +3,7 @@
 $color-blue: #7688F6;
 $pink-color: #FF6A9B;
 $black-color: #505767;
+$copy-color: #909090;
 $hr-color: #EFEFEF;
 $text-button-color: #FFFFFF;
 
@@ -44,7 +45,6 @@ $text-button-color: #FFFFFF;
   margin-top: 8px;
   margin-bottom: 8px;
   background-color: $hr-color;
-  opacity: 0.3;
   height: 2px;
   width: 90%;
 }
@@ -59,7 +59,9 @@ $text-button-color: #FFFFFF;
   background-color: $pink-color;
   color: $text-button-color;
   font-size: 20px;
-  font-weight: 800;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
   border-radius: 8px;
   margin-right: 24px;
   border-color: $pink-color;
@@ -77,7 +79,9 @@ $text-button-color: #FFFFFF;
   background-color: $color-blue;
   color: $text-button-color;
   font-size: 20px;
-  font-weight: 800;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
   border-radius: 8px;
   border-color: $color-blue;
   width: 260px;
@@ -123,7 +127,7 @@ $text-button-color: #FFFFFF;
     width: 60%;
     text-align: start;
     line-height: 30px;
-    margin-left: 7vh;
+    margin-left: 8vh;
     margin-top: 0;
     margin-bottom: 0;
   }
@@ -179,14 +183,16 @@ $text-button-color: #FFFFFF;
   .hrFooter {
     width: 60%;
     background-color: $hr-color;
-    opacity: 0.3;
-    height: 2px;
+    height: 1px;
   }
 
   .textFooter {
     font-size: 10px;
-    color: $hr-color;
+    color: $copy-color;
     height: 30px;
     line-height: 14px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
   }
 }
