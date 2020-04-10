@@ -104,6 +104,7 @@
   font-style: normal;
   font-weight: bold;
   color: $color-blue;
+  height: 20px;
 }
 
 .buttonEnd {
@@ -189,10 +190,10 @@
     transition: all 0.1s;
     align-self: center;
     margin-top: 0;
-    transform: translateY(48px);
+    transform: translateY(8px);
+    margin-top: 32px;
 
     &:hover {
-      transform: translateY(-4px);
       cursor: pointer;
     }
   }
