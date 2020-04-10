@@ -3,19 +3,28 @@ import styles from './styles.module.scss';
 import Topbar from '../../../reusable-components/topbar';
 import camara from '../../../../assets/camara.png';
 import { Link } from 'react-router-dom';
-import Button from '../../../reusable-components/button';
 import Confirmation from '../confirmation';
+import back from '../../../../assets/back.png';
+import logo from '../../../../assets/logo.png';
 
 class Camara extends React.Component {
   render() {
     return (
-      <div>
-        <Topbar link={"/scanner"} />
+      <div className={styles.containerCamara}>
+        <nav className={styles.topbar}>
+          <button className={styles.button}>
+            <Link to="/scanner">
+              <img src={back} className={styles.iconBack} alt="back" />
+            </Link>
+          </button>
+          <div>
+            <img src={logo} className={styles.iconLogo} alt="logo" />
+          </div>
+        </nav>
         <div className={styles.cam}>
-          <img src={camara} alt='camara'  className={styles.iconCamara}/>
           <Link to="/confirmation">
             {Confirmation}
-            <Button title="CONTINUAR" />
+            <img src={camara} alt='camara' className={styles.iconCamara} />
           </Link>
         </div>
         <footer className={styles.footer}>
