@@ -7,7 +7,7 @@ import closeBlue from '../../../../assets/closeBlue.png';
 
 function Confirmation() {
   return (
-    <div className={styles.contenedorPrincipal}>
+    <div className={styles.containerEnd}>
       <nav className={styles.nav}>
         <button className={styles.buttonClose}>
           <img src={closeBlue} className={styles.closeBlue} alt="close" />
@@ -23,13 +23,15 @@ function Confirmation() {
         <h2 className={styles.subtitle}>¿Qué tengo que llevar?</h2>
         <p className={styles.text}>Solo necesitás presentar tu DNI.</p>
       </div>
-      <Link to="/">
-        {Home}
-        <button className={styles.buttonEnd}>
-          FINALIZAR
-        </button>
-      </Link>
       <footer className={styles.footer}>
+
+        <button className={styles.buttonEnd}>
+          <Link to="/" className={styles.link}>
+            {Home}
+            FINALIZAR
+            </Link>
+        </button>
+
         <hr className={styles.hrFooterEnd} />
         <p className={styles.textFooter}>Copyright © 2019 YOSOY. Todos los derechos reservados.</p>
       </footer>
