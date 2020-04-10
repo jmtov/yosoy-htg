@@ -1,6 +1,39 @@
-$color-blue:#7688F6;
-$color-text-end: #011a508e;
-$color-white: #ffffffd7;
+@import '../../../../styles/main.scss';
+
+.nav {
+  width: 100%;
+  height: 10%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  visibility: hidden;
+}
+
+.closeBlue {
+  width: 70%;
+  margin-top: 10px;
+  height: 60px;
+}
+
+.buttonClose {
+  background-color: $text-button-color;
+  ;
+  border: 0;
+  margin: 0;
+  margin-left: 2vh;
+  width: 80px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoBlue {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+}
 
 .contenedorPrincipal {
   width: 100%;
@@ -14,36 +47,56 @@ $color-white: #ffffffd7;
 }
 
 .containerText {
-  width: 70%;
+  width: 60%;
   height: 60vh;
   display: flex;
   flex-direction: column;
-  margin-left: 46vh;
   font-size: 22px;
   line-height: 14px;
+  align-items: center;
 }
 
 .title {
   color: $color-text-end;
-  font-size: 50px;
+  font-size: 54px;
   margin-top: 6vh;
+  margin-left: 20%;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  align-self: flex-start;
+  width: 100%;
 }
 
 .text {
   width: 70vh;
   line-height: 30px;
+  color: $text-button-color;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
 }
 
 .subtitle {
   color: $color-text-end;
-  font-size: 32px;
+  font-size: 34px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  align-self: flex-start;
+  margin-left: 20%;
+  width: 100%;
+  line-height: 36px;
 }
 
 .buttonEnd {
-  background-color: $color-white;
+  background-color: $text-button-color;
   color: $color-blue;
-  font-size: 20px;
-  font-weight: 900;
+  font-size: 24px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
   border-radius: 16px;
   width: 270px;
   height: 70px;
@@ -58,4 +111,42 @@ $color-white: #ffffffd7;
 
 .footer {
   visibility: hidden;
+}
+
+.hrFooterEnd {
+  width: 60%;
+  color: #4E7B95;
+  height: 1px;
+}
+
+.textFooter {
+  font-size: 10px;
+  color: $text-button-color;
+  height: 30px;
+  line-height: 14px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+}
+
+@media all and (max-width: 740px) {
+  .nav {
+    height: 26%;
+    visibility: visible;
+  }
+
+  .iconBack {
+    width: 70%;
+  }
+
+  .iconLogo {
+    width: 30%;
+    margin-left: 46%;
+  }
+
+  .footer {
+    visibility: visible;
+    height: 10%;
+  }
+
 }

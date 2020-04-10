@@ -1,10 +1,9 @@
-$border-target: #80808017;
-$hr-color: #808080;
-
+@import '../../../../../../styles/main.scss';
 .card {
   width: 460px;
   height: 660px;
-  border: solid 4px $border-target;
+  border: solid 4px;
+  border-color: $border-target;
   border-radius: 20px;
   overflow: hidden;
   margin-top: 20px;

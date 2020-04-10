@@ -3,7 +3,8 @@ $border-target: #80808017;
 .containerCards {
   width: 200px;
   height: 210px;
-  border: solid 4px $border-target;
+  border: solid 4px;
+  border-color: $border-target;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
