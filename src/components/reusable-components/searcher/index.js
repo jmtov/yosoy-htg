@@ -5,7 +5,7 @@ import lupa from '../../../assets/lupa.png';
 class Searcher extends React.Component {
   render() {
     return (
-     <form action="" className={styles.containerSearcher}>
+      <form className={styles.containerSearcher}>
         <button className={styles.containerIcon} type='submit'>
           <img src={lupa} className={styles.icon} alt="lupa" />
         </button>

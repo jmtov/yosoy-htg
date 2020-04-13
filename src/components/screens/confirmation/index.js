@@ -9,7 +9,7 @@ function Confirmation() {
     <div className={styles.containerEnd}>
       <nav className={styles.nav}>
         <button className={styles.buttonClose}>
-          <img src={closeBlue} className={styles.closeBlue} alt="close" />
+          <img src={closeBlue} className={styles.closeBlue} alt="cerrar" />
         </button>
         <div>
           <img src={logoBlue} className={styles.logoBlue} alt="logo" />

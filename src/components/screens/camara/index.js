@@ -13,7 +13,7 @@ class Camara extends React.Component {
         <nav className={styles.topbar}>
           <button className={styles.button}>
             <Link to="/scanner">
-              <img src={back} className={styles.iconBack} alt="back" />
+              <img src={back} className={styles.iconBack} alt="atrás" />
             </Link>
           </button>
           <div>
