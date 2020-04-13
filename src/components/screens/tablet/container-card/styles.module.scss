@@ -1,0 +1,11 @@
+@import '../../../../styles/main.scss';
+
+.containerCard {
+  border: 5px;
+  height: 90vh;
+  width: 450px;
+  margin: 24px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  color: $copy-color;
+}
