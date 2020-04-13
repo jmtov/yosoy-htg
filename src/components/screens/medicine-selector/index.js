@@ -5,7 +5,6 @@ import Topbar from '../../reusable-components/topbar';
 import Searcher from '../../reusable-components/searcher';
 import ContainerPastis from './medicine-container';
 import Button from '../../reusable-components/button';
-import Tablet from '../tablet';
 
 import styles from './styles.module.scss';
 
@@ -16,7 +15,6 @@ function MedicineSelector() {
       <Searcher placeholder="¿Qué medicamentos estás buscando?" />
       <ContainerPastis title="MEDICAMENTOS MÁS UTILIZADOS" />
       <Link to="/tablet">
-        {Tablet}
         <Button title="CONTINUAR" />
       </Link>
       <footer className={styles.footer}>

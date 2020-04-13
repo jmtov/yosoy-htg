@@ -5,8 +5,6 @@ import Searcher from '../../reusable-components/searcher';
 import ContainerFundaciones from './contenedor-fundaciones';
 import Button from '../../reusable-components/button';
 import { Link } from 'react-router-dom';
-import Scanner from '../scanner';
-
 
 function FoundationsSelector() {
   return (
@@ -16,7 +14,6 @@ function FoundationsSelector() {
         <Searcher placeholder="¿En qué fundación querés retirar?" />
         <ContainerFundaciones title="FUNDACIONES AMIGAS" />
         <Link to="/scanner">
-          {Scanner}
           <Button title="CONTINUAR" />
         </Link>
         <footer className={styles.footer}>
