@@ -9,6 +9,7 @@ class Searcher extends React.Component {
     this.props.buscador(e.target.value)
   }
   render() {
+    console.log(this.state)
     return (
       <div className={styles.containerSearcher}>
         <button className={styles.containerIcon}>
