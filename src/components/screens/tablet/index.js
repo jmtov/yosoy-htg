@@ -4,27 +4,26 @@ import Topbar from '../../reusable-components/topbar';
 import ContainerCard from './container-card';
 import Button from '../../reusable-components/button';
 import styles from './styles.module.scss';
-import FoundationsSelector from '../foundations-selector/';
 
 class Tablet extends React.Component {
-
-
-
-  submit = (e) =>{
+  submit = (e) => {
     e.preventDefault();
     this.props.history.push("/foundations-selector");
   }
-
-
   render() {
     return (
-      <div>
+      <div className={styles.containerTabletMain}>
         <Topbar link={"medicine-selector"} />
-        <form onSubmit={this.submit} className={styles.container}>
+        <div className={styles.containerTablet}>
           <ContainerCard />
-        
-          <Button title="CONTINUAR"/>
-        </form>
+          <form onSubmit={this.submit} className={styles.containerBut}>
+            <Button title="CONTINUAR" />
+          </form>
+          <footer className={styles.footer}>
+            <hr className={styles.hrFoot} />
+            <p className={styles.textFooter}>Copyright © 2019 YOSOY. Todos los derechos reservados.</p>
+          </footer>
+        </div>
       </div>
     );
   }

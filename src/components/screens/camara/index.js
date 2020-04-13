@@ -18,7 +18,7 @@ class Camara extends React.Component {
         <nav className={styles.topbar}>
           <button className={styles.button}>
             <Link to="/scanner">
-              <img src={back} className={styles.iconBack} alt="back" />
+              <img src={back} className={styles.iconBack} alt="atrás" />
             </Link>
           </button>
           <div>
@@ -31,10 +31,6 @@ class Camara extends React.Component {
             <img src={camara} alt='camara' className={styles.iconCamara} />
           </Link>
         </form>
-        <footer className={styles.footer}>
-          <hr className={styles.hrFoot} />
-          <p className={styles.textFooter}>Copyright © 2019 YOSOY. Todos los derechos reservados.</p>
-        </footer>
       </div>
     );
   }

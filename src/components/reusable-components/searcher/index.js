@@ -10,7 +10,7 @@ class Searcher extends React.Component {
   }
   render() {
     return (
-        <div action="" className={styles.containerSearcher}>
+        <div className={styles.containerSearcher}>
           <button className={styles.containerIcon}>
             <img src={lupa} className={styles.icon} alt="lupa" />
           </button>

@@ -1,108 +1,190 @@
-$blue-color: #0000ff;
-$pink-color: #FF0080;
-$hr-color: #808080;
-$text-button-color: #ffffff;
-$sha-blue-color: #94dbf8;
-$sha-pink-color: #ee9ca1;
-
-.background {
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.home {
-  width: 90%;
-  height: 80%;
-  /*le saco el margen-left porque es innecesario, ya que cambie el width porque el padre tiene flex*/
-}
-
-.cont1 {
-  width: 100%;
-  height: 75%;
-  display: flex;
-  align-items: flex-end;
-}
+@import '../../../styles/main.scss';
 
 .containerHome {
-  /*le saco el width asi se acomoda de manera automatica*/
-  font-size: xx-large; /*cambie la medida fija de px por una adaptable*/
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
-.title {
-  color: $blue-color;
-  font-size: 10vh;
+.containerWelcome {
+  width: 90%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  line-height: 2px;
+  margin-top: 40vh;
+}
+
+.titleHome {
+  color: $color-blue;
+  font-size: 90px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.textHome {
+  font-size: 30px;
+  width: 90%;
+  font-weight: bold;
+  color: $black-color;
 }
 
 .hr {
   display: block;
-  margin-top: 3%;
-  margin-bottom: 3%; /*le cambio las medidas para que sea adaptable a la pantalla*/
+  margin-top: 8px;
+  margin-bottom: 8px;
   background-color: $hr-color;
-  opacity: 0.3;
   height: 2px;
-  width: 100%; /*cambie la medida del hr asi cubria todo*/
+  width: 90%;
 }
 
 .containerButton {
-  width: 100%;
-  height: 15%;
+  width: 90%;
+  height: 25%;
+  margin-top: calc(2% + 28px);
 }
-
 
 .button1 {
   background-color: $pink-color;
   color: $text-button-color;
   font-size: 20px;
-  border-radius: 4px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  border-radius: 8px;
   margin-right: 24px;
   border-color: $pink-color;
-  width: 250px;
+  width: 260px;
   height: 64px;
   transition: all 0.1s;
 
   &:hover {
     transform: translateY(-4px);
-    box-shadow: 0 30px 30px $sha-pink-color;
     cursor: pointer;
   }
 }
 
 .button2 {
-  background-color: $blue-color;
+  background-color: $color-blue;
   color: $text-button-color;
   font-size: 20px;
-  border-radius: 4px;
-  border-color: $blue-color;
-  width: 250px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  border-radius: 8px;
+  border-color: $color-blue;
+  width: 260px;
   height: 64px;
   transition: all 0.1s;
 
   &:hover {
     transform: translateY(-4px);
-    box-shadow: 0 30px 30px $sha-blue-color;
     cursor: pointer;
   }
 }
 
-@media only screen and (max-width:500px) {
+.footer {
+  visibility: hidden;
+}
+
+@media all and (max-width: 640px) {
 
   /*Aca cuando uso Eslint me hace un salto de linea de la llave hacia el containerButton y queda un espacio*/
-  .containerButton,
   .containerHome {
-    width: 100%;
+    height: 100vh;
+  }
+
+  .containerWelcome {
+    height: 50vh;
+    line-height: 4px;
+    margin-top: 8px;
+    text-align: center;
+    justify-content: space-evenly;
+  }
+
+  .titleHome {
+    width: 60%;
+    font-size: 66px;
+    margin-top: 10vh;
+    margin-left: 4vh;
+  }
+
+  .textHome {
+    font-size: 26px;
+    box-sizing: content-box;
+    width: 60%;
+    text-align: start;
+    line-height: 30px;
+    margin-left: 8vh;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .hr {
+    width: 60%;
+    margin-bottom: 30px;
   }
 
   .containerButton {
     display: flex;
     align-content: center;
+    height: 50vh;
+    width: 60%;
+    flex-direction: column;
+    line-height: 4px;
+    text-align: center;
+    justify-content: center;
   }
 
-  .button1,
+  .button1 {
+    width: 100%;
+    height: 90px;
+    margin-bottom: 10px;
+    transition: all 0.1s;
+    box-sizing: content-box;
+
+    &:hover {
+      transform: translateY(-4px);
+      cursor: pointer;
+    }
+  }
+
   .button2 {
-    width: 120px;
-    font-size: 16px;
+    width: 100%;
+    height: 90px;
+    margin-bottom: 90px;
+    transition: all 0.1s;
+    box-sizing: content-box;
+    align-items: center;
+
+    &:hover {
+      transform: translateY(-4px);
+      cursor: pointer;
+    }
+  }
+
+  .footer {
+    visibility: visible;
+    height: 10vh;
+  }
+
+  .hrFooter {
+    width: 60%;
+    background-color: $hr-color;
+    height: 1px;
+  }
+
+  .textFooter {
+    font-size: 10px;
+    color: $copy-color;
+    height: 30px;
+    line-height: 14px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
   }
 }

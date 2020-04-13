@@ -2,13 +2,13 @@ import React from 'react';
 import styles from './styles.module.scss';
 
 
-class Stick extends React.Component {
+class Slider extends React.Component {
   render() {
     return (
       <div className={styles.inputRange}>
         <div className={styles.trackBackground}>
           <span className={styles.cursor}>
-            <span className={styles.labelValue}>          
+            <span className={styles.labelValue}>
               <div className={styles.slider}></div>
             </span>
           </span>
@@ -18,4 +18,4 @@ class Stick extends React.Component {
   }
 }
 
-export default Stick;
+export default Slider;
