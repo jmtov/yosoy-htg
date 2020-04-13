@@ -9,7 +9,7 @@ function Topbar(props) {
     <nav className={styles.nav}>
       <button className={styles.button}>
         <Link to={props.link}>
-          <img src={back} className={styles.iconBack} alt="back" />
+          <img src={back} className={styles.iconBack} alt="atrás" />
         </Link>
       </button>
       <div>
