@@ -5,7 +5,7 @@ import Searcher from '../../reusable-components/searcher';
 import ContainerFundaciones from './contenedor-fundaciones';
 import Button from '../../reusable-components/button';
 import { withRouter } from 'react-router-dom';
-import Foundations from '../../dates/foundations';
+import Foundations from '../../dates/fuondations';
 
 class FoundationsSelector extends React.Component {
 
@@ -14,34 +14,34 @@ class FoundationsSelector extends React.Component {
     buscador: ""
   }
 
-  cambio = (param) => {
-    this.setState({ id: param });
+  cambio = (param) =>{
+    this.setState({id: param});
   }
 
-  buscador = (palabra) => {
-    this.setState({ buscador: palabra });
+  buscador = (palabra) =>{
+    this.setState({buscador: palabra});
   }
 
-  submit = (e) => {
+  submit = (e) =>{
     e.preventDefault();
     this.props.fundacion(this.state.id);
     this.props.history.push("/scanner");
   }
 
-  render() {
+  render(){
     console.log(this.state);
 
     return (
       <div>
-        <Topbar link={"/Tablet"} />
+        <Topbar link={"/Tablet"}/>
         <form className={styles.contenedorPrincipal} onSubmit={this.submit}>
-          <Searcher contBuscador="¿En que fundacion queres retirar?" buscador={this.buscador} />
-          <ContainerFundaciones title="FUNDACIONES AMIGAS" datosFundaciones={Foundations} cambio={this.cambio} contBuscador={this.state.buscador} />
-          <Button title="CONTINUAR" idFundaciones={this.state.id} />
+          <Searcher contBuscador="¿En que fundacion queres retirar?"  buscador={this.buscador}/>
+          <ContainerFundaciones title="FUNDACIONES AMIGAS" datosFundaciones={Foundations} cambio={this.cambio}  contBuscador={this.state.buscador}/>
+          <Button title="CONTINUAR" idFundaciones={this.state.id}/>
         </form>
       </div>
     );
-  }
+}
 }
 
 export default withRouter(FoundationsSelector);
