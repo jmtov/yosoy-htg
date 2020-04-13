@@ -3,7 +3,6 @@ import styles from './styles.module.scss';
 import Slider from './slider';
 import atripla from '../../../../../assets/atripla.png';
 
-
 class CardZoom extends React.Component {
   render() {
     return (

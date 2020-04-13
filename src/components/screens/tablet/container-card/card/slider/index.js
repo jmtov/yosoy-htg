@@ -7,7 +7,7 @@ class Slider extends React.Component {
       <div className={styles.inputRange}>
         <div className={styles.trackBackground}>
           <span className={styles.cursor}>
-            <span className={styles.labelValue}>          
+            <span className={styles.labelValue}>
               <div className={styles.slider}></div>
             </span>
           </span>

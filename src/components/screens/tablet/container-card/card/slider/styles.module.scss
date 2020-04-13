@@ -20,7 +20,8 @@
 
 .cursor {
   position: absolute;
-  left: 50px;   /*este margin mueve la posicion del cursor*/
+  left: 50px;
+  /*este margin mueve la posicion del cursor*/
   transition: left 0.3s ease-out;
   height: 10px;
 
@@ -43,7 +44,8 @@
   width: 1rem;
   transition: all;
 
-  &:active { /*por ahora va este codigo pero la idea es que al hacer ondrag cambie el color de la barra*/
+  &:active {
+    /*por ahora va este codigo pero la idea es que al hacer ondrag cambie el color de la barra*/
     transform: translateX(20vh);
     cursor: pointer;
   }

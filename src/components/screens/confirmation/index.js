@@ -26,7 +26,7 @@ function Confirmation() {
         <button className={styles.buttonEnd}>
           <Link to="/" className={styles.link}>
             FINALIZAR
-            </Link>
+          </Link>
         </button>
         <hr className={styles.hrFooterEnd} />
         <p className={styles.textFooter}>Copyright © 2019 YOSOY. Todos los derechos reservados.</p>
