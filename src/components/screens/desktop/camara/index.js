@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './styles.module.scss';
-import Topbar from '../../../reusable-components/topbar';
 import camara from '../../../../assets/camara.png';
 import { Link } from 'react-router-dom';
 import Confirmation from '../confirmation';

@@ -24,14 +24,12 @@ function Confirmation() {
         <p className={styles.text}>Solo necesitás presentar tu DNI.</p>
       </div>
       <footer className={styles.footer}>
-
         <button className={styles.buttonEnd}>
           <Link to="/" className={styles.link}>
             {Home}
             FINALIZAR
             </Link>
         </button>
-
         <hr className={styles.hrFooterEnd} />
         <p className={styles.textFooter}>Copyright © 2019 YOSOY. Todos los derechos reservados.</p>
       </footer>

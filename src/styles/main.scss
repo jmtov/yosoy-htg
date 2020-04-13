@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&display=swap');
 
 $copy-color: #909090;
 $hr-color: #EFEFEF;
@@ -14,4 +15,5 @@ $black-color: #505767;
 
 body {
   margin: 0;
+  font-family: 'Open Sans', sans-serif;
 }

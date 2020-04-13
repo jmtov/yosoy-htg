@@ -9,9 +9,9 @@ import FoundationsSelector from '../foundations-selector';
 class Tablet extends React.Component {
   render() {
     return (
-      <div>
+      <div className={styles.containerTabletMain}>
         <Topbar link={"/medicine-selector"}/>
-        <div className={styles.container}>
+        <div className={styles.containerTablet}>
           <ContainerCard />
           <Link to="/foundations-selector">
             {FoundationsSelector}
