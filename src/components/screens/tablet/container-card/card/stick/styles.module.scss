@@ -1,0 +1,50 @@
+.inputRange {
+  margin-bottom: 160px;
+  background: #3f51b5;
+  height: 1rem;
+  position: relative;
+  width: 80%;
+  margin-bottom: 60px;
+  margin-left: 4vh;
+  border-radius: 40px;
+}
+
+
+.trackBackground {
+  left: 0;
+  margin-top: -0.14rem;
+  position: absolute;
+  right: 0;
+  border-radius: 60px;
+}
+
+.cursor {
+  position: absolute;
+  left: 50px;  /*este margin mueve la posicion del cursor*/
+  transition: left 0.3s ease-out;
+
+}
+
+.labelValue {
+  position: absolute;
+  top: -1.8rem;
+}
+
+.slider {
+  background: #3f51b5;
+  border: 2px solid #3044b1;
+  border-radius: 80%;
+  cursor: pointer;
+  display: block;
+  height: 20px;
+  margin-top: 28px;
+  position: absolute;
+  width: 1rem;
+  transition: all;
+
+  &:active { /*por ahora va este codigo pero la idea es que al hacer ondrag cambie el color de la barra*/
+    transform: translateX(20vh);
+    box-shadow: 0 30px 30px #94dbf8;
+    cursor: pointer;
+  }
+}
