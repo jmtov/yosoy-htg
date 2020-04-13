@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './styles.module.scss';
 
-
 class Slider extends React.Component {
   render() {
     return (

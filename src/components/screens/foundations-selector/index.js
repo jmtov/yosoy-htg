@@ -4,43 +4,25 @@ import Topbar from '../../reusable-components/topbar';
 import Searcher from '../../reusable-components/searcher';
 import ContainerFundaciones from './contenedor-fundaciones';
 import Button from '../../reusable-components/button';
-import { withRouter } from 'react-router-dom';
-import Foundations from '../../dates/foundations';
+import { Link } from 'react-router-dom';
 
-class FoundationsSelector extends React.Component {
-
-  state = {
-    id: 0,
-    buscador: ""
-  }
-
-  cambio = (param) => {
-    this.setState({ id: param });
-  }
-
-  buscador = (palabra) => {
-    this.setState({ buscador: palabra });
-  }
-
-  submit = (e) => {
-    e.preventDefault();
-    this.props.fundacion(this.state.id);
-    this.props.history.push("/scanner");
-  }
-
-  render() {
-    console.log(this.state);
-    return (
-      <div>
-        <Topbar link={"/Tablet"} />
-        <form className={styles.contenedorPrincipal} onSubmit={this.submit}>
-          <Searcher placeholder="¿En qué fundación queres retirar?" title="FUNDACIONES AMIGAS" buscador={this.buscador} />
-          <ContainerFundaciones title="FUNDACIONES AMIGAS" datosFundaciones={Foundations} cambio={this.cambio} contBuscador={this.state.buscador} />
-          <Button title="CONTINUAR" idFundaciones={this.state.id} />
-        </form>
+function FoundationsSelector() {
+  return (
+    <div>
+      <Topbar link={"/tablet"} />
+      <div className={styles.contenedorPrincipal}>
+        <Searcher placeholder="¿En qué fundación querés retirar?" />
+        <ContainerFundaciones title="FUNDACIONES AMIGAS" />
+        <Link to="/scanner">
+          <Button title="CONTINUAR" />
+        </Link>
+        <footer className={styles.footer}>
+          <hr className={styles.hrFoot} />
+          <p className={styles.textFooter}>Copyright © 2019 YOSOY. Todos los derechos reservados.</p>
+        </footer>
       </div>
-    );
-  }
+    </div>
+  );
 }
 
-export default withRouter(FoundationsSelector);
+export default FoundationsSelector;

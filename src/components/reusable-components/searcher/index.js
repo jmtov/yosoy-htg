@@ -10,16 +10,16 @@ class Searcher extends React.Component {
   }
   render() {
     return (
-        <div className={styles.containerSearcher}>
-          <button className={styles.containerIcon}>
-            <img src={lupa} className={styles.icon} alt="lupa" />
-          </button>
-          <div className={styles.containerInput}>
-            <input type="text" placeholder={this.props.placeholder} value={this.state.value}
-              className={styles.input}
-              onChange={this.pasoPalabra} />
-          </div>
+      <div className={styles.containerSearcher}>
+        <button className={styles.containerIcon}>
+          <img src={lupa} className={styles.icon} alt="lupa" />
+        </button>
+        <div className={styles.containerInput}>
+          <input type="text" placeholder={this.props.placeholder} value={this.state.value}
+            className={styles.input}
+            onChange={this.pasoPalabra} />
         </div>
+      </div>
     );
   }
 }
