@@ -1,8 +1,8 @@
-$border-target: #80808017;
+@import '../../../../../../styles/main.scss';
 
 .containerCards {
   width: 200px;
-  height: 200px;
+  height: 220px;
   border: solid 4px;
   border-color: $border-target;
   border-radius: 20px;
@@ -15,7 +15,7 @@ $border-target: #80808017;
 }
 
 .containterBackground {
-  width: 80vh;
+  width: 70%;
   height: 100%;
 }
 
