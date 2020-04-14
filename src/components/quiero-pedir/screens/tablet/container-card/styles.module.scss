@@ -13,7 +13,7 @@
 @media all and (max-width: 760px) {
 .containerCard {
   height: 80vh;
-  transform: translateY(-12px);
-  margin: 12px;
+  justify-content: center;
+  width: 70%;
 }
 }

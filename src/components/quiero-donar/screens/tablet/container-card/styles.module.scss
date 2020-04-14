@@ -9,3 +9,12 @@
   font-style: normal;
   color: $copy-color;
 }
+
+@media all and (max-width: 760px) {
+  .containerCard {
+    height: 80vh;
+    justify-content: center;
+    width: 70%;
+  }
+  }
+  

@@ -95,13 +95,56 @@ u {
   margin-right: 20px;
 }
 
-@media all and (max-width: 760px) { 
+@media all and (max-width: 760px) {
 
-.card {
-  width: 380px;
-  height: 580px;
-  margin-top: 40px;
-  margin-bottom: 22px;
-  margin-left: 30px;
-}
+  .card {
+    width: 300px;
+    height: 520px;
+    margin-top: 0px;
+    margin-bottom: 22px;
+    justify-content: center;
+  }
+
+  .title {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+
+  .hr {
+    margin-bottom: 6px;
+  }
+
+  .imgPastilla {
+    width: 50px;
+    height: 26px;
+    margin-left: 14vh;
+  }
+
+  .conposition {
+    height: 150px;
+  }
+
+  .subtitleTablet {
+    font-size: 18px;
+  }
+
+  .alert {
+    background: #fffbfb;
+
+    padding-left: 10px;
+    height: 60px;
+    font-size: 12px;
+  }
+
+  .condition {
+    font-size: 12px;
+    margin-left: 2vh;
+    width: 100%;
+  }
+
+  .radio {
+    transform: scale(2);
+    padding: 40px;
+    margin-right: 12px;
+  }
 }
