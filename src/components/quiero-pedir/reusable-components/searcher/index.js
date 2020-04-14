@@ -8,15 +8,15 @@ class Searcher extends React.Component {
     this.setState({ value: e.target.value });
     this.props.buscador(e.target.value)
   }
-
   render() {
+    console.log(this.state)
     return (
       <div className={styles.containerSearcher}>
         <div className={styles.containerIcon} type='submit'>
           <img src={lupa} className={styles.icon} alt="lupa" />
         </div>
         <div className={styles.containerInput}>
-          <input type="text" placeholder={this.props.placeholder} value={this.state.value} className={styles.input} onChange={this.pasoPalabra} />
+          <input type="text" placeholder={this.props.placeholder} value={this.state.value} className={styles.input} onChange={this.pasoPalabra} buscador={this.props.buscador}/>
         </div>
         <h4>{this.props.title}</h4>
       </div>
