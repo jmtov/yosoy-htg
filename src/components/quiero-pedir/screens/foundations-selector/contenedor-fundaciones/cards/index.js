@@ -26,7 +26,7 @@ class Cards extends React.Component {
               {this.props.datos.horarioCierre}.</p>
           </div>
         </div>
-        <input type="checkbox" name="card" className={styles.checkbox} onChange={this.pasoId} id={this.props.datos.id} required />
+        <input type="radio" name="card" className={styles.checkbox} onChange={this.pasoId} id={this.props.datos.id} required />
       </div>
     );
   }

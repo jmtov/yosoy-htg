@@ -6,7 +6,7 @@ import styles from './styles.module.scss';
 class ContainerPastis extends React.Component {
   render() {
     return (
-      <div>
+      <div className={styles.containerPastis}>
         <h4 className={styles.titleContainer}>{this.props.titleContainer}</h4>
         <div className={styles.contCards}>
           {

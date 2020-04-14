@@ -80,11 +80,15 @@ p {
     margin-top: 10px;
     margin-left: 10px;
     font-size: 10px;
+    line-height: 6px;
   }
 
   .checkbox {
     margin-top: 52px;
     transform: scale(2);
     padding: 40px;
+  }
+  p {
+    font-size: 10px;
   }
 }
