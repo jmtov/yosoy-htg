@@ -2,7 +2,7 @@
 
 .contCards {
   width: 60%;
-  height: 510px;
+  height: 480px;
   display: flex;
   overflow: auto;
   flex-wrap: wrap;
@@ -12,7 +12,7 @@
 }
 
 .titleContainer {
-  margin-bottom: 80px;
+  transform: translateY(-6px);
   font-size: 18px;
   color: $color-title;
   font-family: Arial, Helvetica, sans-serif;

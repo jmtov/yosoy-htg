@@ -36,8 +36,8 @@ class MedicineSelectorDonar extends React.Component {
       <div className={styles.containerPrincipal}>
         <Topbar link={"/"} />
         <form onSubmit={this.submit} className={styles.containerTwo}>
-          <Searcher contBuscador="¿Qué medicamento querés donar?" buscador={this.buscador} />
-          <ContainerPastis datosMedicamentos={Medicines} cambio={this.cambio} placeholder={this.state.buscador} title="MEDICAMENTOS MÁS DONADOS" />
+          <Searcher placeholder="¿Qué medicamento querés donar?" buscador={this.buscador} />
+          <ContainerPastis datosMedicamentos={Medicines} cambio={this.cambio} placeholder={this.state.buscador} titleContainer="MEDICAMENTOS MÁS DONADOS" />
           <Button title="CONTINUAR" go={"tablet-donar"} idMedicamento={this.state.id} />
         </form>
         <footer className={styles.footer}>

@@ -19,7 +19,7 @@ import ConfirmationDonar from './components/quiero-donar/screens/confirmation';
 class Main extends React.Component {
   state = {
     idMedicamento: 0,
-    can: 0,
+    cant: 0,
     idFundacion: 0,
     codigo: 0
   }

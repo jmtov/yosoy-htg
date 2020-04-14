@@ -37,8 +37,8 @@ class MedicineSelector extends React.Component {
         <Topbar link={"/"} />
         <form onSubmit={this.submit} className={styles.containerTwo}>
           <Searcher placeholder="¿Qué medicamentos estás buscando?" buscador={this.buscador}  />
-          <ContainerPastis datosMedicamentos={Medicines} cambio={this.cambio} placeholder={this.state.buscador} title="MEDICAMENTOS MÁS UTILIZADOS"/>
-          <Button title="CONTINUAR" go={"tablet"} idMedicamento={this.state.id} />
+          <ContainerPastis datosMedicamentos={Medicines} cambio={this.cambio} placeholder={this.state.buscador} titleContainer="MEDICAMENTOS MÁS UTILIZADOS"/>
+          <Button title="CONTINUAR" go={"tablet"} idMedicamentos={this.state.id} />
         </form>
         <footer className={styles.footer}>
           <hr className={styles.hrFoot} />
