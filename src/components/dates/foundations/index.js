@@ -23,9 +23,9 @@ const Foundations = [
   {
       id: 3,
       title: "FUNDACIÓN HUESPED",
-      direccion: "Angel Peluffo",
+      direccion: "Angel Peluffo ",
       altura: 3932,
-      localidad: "Almagro",
+      localidad: " Almagro",
       horarioApertura: 9,
       horarioCierre: 20
   },

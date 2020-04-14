@@ -14,13 +14,13 @@ class Cards extends React.Component {
           </div>
           <hr />
           <div className={styles.containerDates}>
-            <p><b>Dirección:</b></p>
-            <p>
+            <p className={styles.titleDate}><b>Dirección:</b></p>
+            <p className={styles.dates}>
               {this.props.datos.direccion}<span> </span>
               {this.props.datos.altura}<span> </span>
               {this.props.datos.localidad}.</p>
-            <p><b>Horarios:</b></p>
-            <p>
+            <p className={styles.titleDate}><b>Horarios:</b></p>
+            <p className={styles.dates}>
               {this.props.datos.horarioApertura}
               <span> </span>a<span> </span>
               {this.props.datos.horarioCierre}.</p>
