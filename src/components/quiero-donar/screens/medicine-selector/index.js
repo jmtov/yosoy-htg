@@ -32,14 +32,13 @@ class MedicineSelectorDonar extends React.Component {
 
   render() {
     console.log(this.state);
-
     return (
       <div className={styles.containerPrincipal}>
         <Topbar link={"/"} />
         <form onSubmit={this.submit} className={styles.containerTwo}>
-          <Searcher contBuscador="¿Qué medicamento querés donar?" buscador={this.buscador} title="MEDICAMENTOS MÁS DONADOS" />
-          <ContainerPastis datosMedicamentos={Medicines} cambio={this.cambio} contBuscador={this.state.buscador} />
-          <Button title="CONTINUAR" go={"tablet-donar"} idMedicamentos={this.state.id} />
+          <Searcher contBuscador="¿Qué medicamento querés donar?" buscador={this.buscador} />
+          <ContainerPastis datosMedicamentos={Medicines} cambio={this.cambio} placeholder={this.state.buscador} title="MEDICAMENTOS MÁS DONADOS" />
+          <Button title="CONTINUAR" go={"tablet-donar"} idMedicamento={this.state.id} />
         </form>
         <footer className={styles.footer}>
           <hr className={styles.hrFoot} />
@@ -49,4 +48,5 @@ class MedicineSelectorDonar extends React.Component {
     );
   }
 }
+
 export default withRouter(MedicineSelectorDonar);

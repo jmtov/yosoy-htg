@@ -32,14 +32,13 @@ class MedicineSelector extends React.Component {
 
   render() {
     console.log(this.state);
-
     return (
       <div className={styles.containerPrincipal}>
         <Topbar link={"/"} />
         <form onSubmit={this.submit} className={styles.containerTwo}>
-          <Searcher placeholder="¿Qué medicamentos estás buscando?" buscador={this.props.buscador} title="MEDICAMENTOS MÁS UTILIZADOS" />
-          <ContainerPastis datosMedicamentos={Medicines} cambio={this.cambio} contBuscador={this.state.buscador} />
-          <Button title="CONTINUAR" go={"tablet"} idMedicamentos={this.state.id} />
+          <Searcher placeholder="¿Qué medicamentos estás buscando?" buscador={this.buscador}  />
+          <ContainerPastis datosMedicamentos={Medicines} cambio={this.cambio} placeholder={this.state.buscador} title="MEDICAMENTOS MÁS UTILIZADOS"/>
+          <Button title="CONTINUAR" go={"tablet"} idMedicamento={this.state.id} />
         </form>
         <footer className={styles.footer}>
           <hr className={styles.hrFoot} />
@@ -49,4 +48,5 @@ class MedicineSelector extends React.Component {
     );
   }
 }
+
 export default withRouter(MedicineSelector);

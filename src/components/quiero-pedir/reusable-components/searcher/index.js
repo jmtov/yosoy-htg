@@ -18,7 +18,6 @@ class Searcher extends React.Component {
         <div className={styles.containerInput}>
           <input type="text" placeholder={this.props.placeholder} value={this.state.value} className={styles.input} onChange={this.pasoPalabra} buscador={this.props.buscador}/>
         </div>
-        <h4>{this.props.title}</h4>
       </div>
     );
   }

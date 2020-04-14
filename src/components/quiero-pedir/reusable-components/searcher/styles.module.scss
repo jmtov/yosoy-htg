@@ -1,8 +1,8 @@
 @import '../../../../styles/main.scss';
 
 .containerSearcher {
-  width: 52%;
-  height: 10%;
+  width: 50%;
+  height: 68px;
   margin: 0;
   margin-top: -10px;
   padding: 0;
@@ -15,7 +15,7 @@
 }
 
 .containerIcon {
-  width: 10%;
+  width: 6%;
   height: 100%;
   background: $hr-color;
   border: solid 2px $hr-color;
@@ -29,13 +29,11 @@
   width: 30px;
   height: 30px;
   margin-top: 22px;
-  margin-left: 24px;
   margin-right: 6px;
 }
 
-
 .containerInput {
-  width: 86%;
+  width: 90%;
   padding: 0;
   margin: 0;
   border-radius: 15px 15px 15px 15px;
@@ -43,7 +41,7 @@
 }
 
 .input {
-  width: 100%;
+  width: 80%;
   height: 70px;
   padding: 0;
   margin: 0;
@@ -69,7 +67,6 @@
     width: 6%;
     height: 100%;
   }
-
 
   .icon {
     width: 18px;
