@@ -4,7 +4,7 @@ import styles from './styles.module.scss';
 class Button extends React.Component {
   render() {
     return (
-      <button className={styles.button}>{this.props.title}</button>
+      <button type="submit" className={styles.button}>{this.props.title}</button>
     );
   }
 }
