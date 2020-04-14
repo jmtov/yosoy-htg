@@ -31,7 +31,7 @@ class FoundationsSelector extends React.Component {
     console.log(this.state);
     return (
       <div>
-        <Topbar link={"/tablet"} />
+        <Topbar link={"/tablet-donar"} />
         <form className={styles.contenedorPrincipal} onSubmit={this.submit} >
           <Searcher placeholder="¿En qué fundación querés donar?" buscador={this.buscador} />
           <ContainerFundaciones titleContainer="FUNDACIONES AMIGAS" datosFundaciones={Foundations} cambio={this.cambio} placeholder={this.state.buscador} />

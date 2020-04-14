@@ -18,7 +18,7 @@ class CardZoom extends React.Component {
           <h3 className={styles.subtitleTablet}>Cantidad de pastillas</h3>
         </div>
         <Slider />
-        <p className={styles.alert}>Recordá pedir solo la cantidad de pastillas que necesites para que siempre haya medicación disponible para otres.</p>
+        <p className={styles.alert}>La donación que estás haciendo va a ser de gran ayuda para alguien que las necesita :) <br></br>¡Gracias!</p>
         <div className={styles.condition}>
           <input type='checkbox' name='checkbox' className={styles.radio} required></input>
           <u>Acepto términos y condiciones</u>
