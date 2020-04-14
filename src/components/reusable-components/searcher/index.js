@@ -1,28 +1,16 @@
 import React from 'react';
 import styles from './styles.module.scss';
-import lupa from '../../../assets/lupa.png';
+import Form from './form';
 
 class Searcher extends React.Component {
-  state = { value: "" }
-  pasoPalabra = (e) => {
-    this.setState({ value: e.target.value });
-    this.props.buscador(e.target.value)
-  }
-  render() {
-    console.log(this.state)
-    return (
-      <div className={styles.containerSearcher}>
-        <button className={styles.containerIcon}>
-          <img src={lupa} className={styles.icon} alt="lupa" />
-        </button>
-        <div className={styles.containerInput}>
-          <input type="text" placeholder={this.props.placeholder} value={this.state.value}
-            className={styles.input}
-            onChange={this.pasoPalabra} />
-        </div>
-      </div>
-    );
-  }
+    render() {
+        return (
+            <div className={styles.contBuscador}>
+                <Form contBuscador={this.props.contBuscador} buscador={this.props.buscador}/>
+                <h4>{this.props.title}</h4>
+            </div>
+        )
+    }
 }
 
 export default Searcher;
