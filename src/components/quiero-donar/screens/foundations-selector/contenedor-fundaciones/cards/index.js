@@ -14,7 +14,7 @@ class Cards extends React.Component {
           </div>
           <hr />
           <div className={styles.containerDates}>
-            <p><b>Direccion:</b></p>
+            <p><b>Dirección:</b></p>
             <p>
               {this.props.datos.direccion}<span> </span>
               {this.props.datos.altura}<span> </span>

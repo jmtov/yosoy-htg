@@ -33,8 +33,8 @@ class FoundationsSelector extends React.Component {
       <div>
         <Topbar link={"/tablet"} />
         <form className={styles.contenedorPrincipal} onSubmit={this.submit} >
-          <Searcher placeholder="¿En qué fundación querés retirar?" buscador={this.props.buscador} />
-          <ContainerFundaciones title="FUNDACIONES AMIGAS" datesFoundations={Foundations} cambio={this.cambio} contBuscador={this.state.buscador} />
+          <Searcher placeholder="¿En qué fundación querés retirar?" buscador={this.buscador} />
+          <ContainerFundaciones titleContainer="FUNDACIONES AMIGAS" datosFundaciones={Foundations} cambio={this.cambio} placeholder={this.state.buscador} />
           <Button title="CONTINUAR" idFundaciones={this.state.id} />
           <footer className={styles.footer}>
             <hr className={styles.hrFoot} />

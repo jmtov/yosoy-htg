@@ -22,7 +22,7 @@ const Foundations = [
 
   {
       id: 3,
-      title: "FUNDACION HUESPED",
+      title: "FUNDACIÓN HUESPED",
       direccion: "Angel Peluffo",
       altura: 3932,
       localidad: "Almagro",
@@ -32,7 +32,7 @@ const Foundations = [
 
   {
       id: 4,
-      title: "FUNDACION ROSAS",
+      title: "FUNDACIÓN ROSAS",
       direccion: "P. Junin",
       altura: 1142,
       localidad: "Recoleta",
@@ -43,7 +43,7 @@ const Foundations = [
   {
       id: 5,
       title: "HABLEMOS DE HIV",
-      direccion: "Entre Rios",
+      direccion: "Entre Ríos",
       altura: 671,
       localidad: "Olivos",
       horarioApertura: 9,
@@ -53,7 +53,7 @@ const Foundations = [
   {
       id: 6,
       title: "HELIOS SALUD",
-      direccion: "Peru",
+      direccion: "Perú",
       altura: 1511,
       localidad: "San Telmo",
       horarioApertura: 10,
@@ -62,7 +62,7 @@ const Foundations = [
 
   {
       id: 7,
-      title: "FUNDACION HUESPED",
+      title: "FUNDACIÓN HUESPED",
       direccion: "Angel Peluffo",
       altura: 3932,
       localidad: "Almagro",
@@ -72,7 +72,7 @@ const Foundations = [
 
   {
       id: 8,
-      title: "FUNDACION ROSAS",
+      title: "FUNDACIÓN ROSAS",
       direccion: "P. Junin",
       altura: 1142,
       localidad: "Recoleta",
