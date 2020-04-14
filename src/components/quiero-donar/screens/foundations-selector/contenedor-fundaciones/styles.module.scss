@@ -20,3 +20,22 @@
   font-weight: normal;
   margin-left: 26%;
 }
+
+@media all and (max-width: 640px) {
+
+  .titleContainer {
+    transform: translateY(0px);
+    font-size: 14px;
+    margin-left: 10%;
+    width: 70%;
+  }
+
+  .contCards {
+    width: 88%;
+    height: 400px;
+    align-items: center;
+    transform: translateX(-20px);
+    margin-top: 60px;
+    margin-left: 50px;
+  }
+}
