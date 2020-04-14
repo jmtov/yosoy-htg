@@ -71,3 +71,45 @@
   margin-left: 6px;
   margin-top: 8px;
 }
+
+@media all and (max-width: 640px) {
+
+  .containerCards {
+    width: 170px;
+    height: 170px;
+    box-shadow: 10px 16px 20px 2px $border-target;
+  }
+
+  .containerTitle {
+    height: 20px;
+  }
+
+  .titleMedicine {
+    font-size: 16px;
+  }
+
+  .containerDates {
+    font-size: 10px;
+  }
+
+  .grams {
+    visibility: hidden;
+  }
+
+  .checkbox {
+    position: absolute;
+    margin-left: 64px;
+    margin-top: 68px;
+    transform: scale(2);
+    padding: 60px;
+  }
+
+  .imgPastilla {
+    width: 60%;
+    height: 56px;
+    margin-left: 26px;
+    margin-top: 0px;
+    align-items: center;
+    transform: translateY(30px);
+  }
+}
