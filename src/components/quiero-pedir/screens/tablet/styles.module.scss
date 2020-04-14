@@ -23,3 +23,29 @@
 .footer {
   visibility: hidden;
 }
+
+@media all and (max-width: 760px) {
+  .footer {
+    visibility: visible;
+    height: 10vh;
+    width: 80%;
+    margin-top: 20px;
+  }
+
+  .hrFooter {
+    width: 90%;
+    background-color: $hr-color;
+    height: 1px;
+  }
+
+  .textFooter {
+    font-size: 10px;
+    color: $copy-color;
+    height: 30px;
+    line-height: 14px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+  }
+}

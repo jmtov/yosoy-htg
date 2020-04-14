@@ -9,3 +9,11 @@
   font-style: normal;
   color: $copy-color;
 }
+
+@media all and (max-width: 760px) {
+.containerCard {
+  height: 80vh;
+  transform: translateY(-12px);
+  margin: 12px;
+}
+}

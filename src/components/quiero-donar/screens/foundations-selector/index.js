@@ -25,7 +25,7 @@ class FoundationsSelector extends React.Component {
   submit = (e) => {
     e.preventDefault();
     this.props.fundacion(this.state.id);
-    this.props.history.push("/scanner");
+    this.props.history.push("/scanner-donar");
   }
   render() {
     console.log(this.state);

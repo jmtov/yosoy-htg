@@ -20,7 +20,7 @@ class Card extends React.Component {
           <p className={styles.grams}>{this.props.datos.gramos}mg</p>
         </div>
         <input type="checkbox" name="card" id={this.props.datos.id} className={styles.checkbox} 
-          onChange={this.pasoId} required/>
+          onChange={this.pasoId} onClick={this.onClick} required/>
       </div>
     );
   }

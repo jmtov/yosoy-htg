@@ -1,18 +1,18 @@
 import React from 'react';
 import styles from './styles.module.scss';
 import { Link } from 'react-router-dom';
-import logoBlue from '../../../../assets/logoBlue.png';
-import closeBlue from '../../../../assets/closeBlue.png';
+import logoPink from '../../../../assets/logoRosa.png';
+import closePink from '../../../../assets/closeRosa.png';
 
 function ConfirmationDonar() {
   return (
     <div className={styles.containerEnd}>
       <nav className={styles.nav}>
         <button className={styles.buttonClose}>
-          <img src={closeBlue} className={styles.closeBlue} alt="cerrar" />
+          <img src={closePink} className={styles.closePink} alt="cerrar" />
         </button>
         <div>
-          <img src={logoBlue} className={styles.logoBlue} alt="logo" />
+          <img src={logoPink} className={styles.logoPink} alt="logo" />
         </div>
       </nav>
       <div className={styles.containerText}>
